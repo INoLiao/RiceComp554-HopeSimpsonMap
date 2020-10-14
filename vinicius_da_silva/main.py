@@ -18,15 +18,14 @@ longitude = [-51.900, -46.633, -43.206, -43.933, -40.308, -51.230, -48.485, -49.
 #Create a dictinary to store values for each state
 my_dict = {}
 for i in range(n_states):
-    #print(i)
     my_dict[states[i]] = [states_full[i], latitude[i], longitude[i]]
 
-#my_dict[states[1]] = [states_full[1], -10.01, -34.56, 120120]
-#my_dict[states[2]] = [states_full[2], -10.01, -34.56, 120120]
-#print(my_dict)
-#print(my_dict['SP'][0])
-
-
+#Create a function to convert date formats:
+def convert_date_format(date_in):
+    #receives yyyy-mm-dd and returns mm/dd/yy
+    #print(type(date_in)) #string
+    date_out = date_in[5:7] + '/' + date_in[8:10] + '/' + date_in[2:4]
+    return date_out
 
 #Generate a new csv file with the new format
 with open('output_brazil.csv', mode='w') as output_file:
@@ -44,7 +43,11 @@ with open('output_brazil.csv', mode='w') as output_file:
                 line_count += 1
             else:
                 #print(f'\t{row[0]} {row[1]} {row[2]} {row[3]}')
-                output_writer.writerow([my_dict[row[3]][0], 'Brazil', my_dict[row[3]][1], my_dict[row[3]][2], row[1], row[7]])
+                state_id = row[3]
+                date = convert_date_format(row[1])
+                daily_cases = row[7]
+                state_info = my_dict[state_id]
+                output_writer.writerow([state_info[0], 'Brazil', state_info[1], state_info[2], date, daily_cases])
                 line_count += 1
         print(f'Processed {line_count} lines.')
             
