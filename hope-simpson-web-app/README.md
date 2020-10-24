@@ -5,6 +5,11 @@
 You should have `npm` installed to run the project. In the future, if you need any packages for React development, you can install them using `npm` as well.
 
 ## Start the project
+- Install all the dependencies by running:
+    
+    ```bash
+    npm install
+    ```
 
 - Start the project in the development mode by running:
 
