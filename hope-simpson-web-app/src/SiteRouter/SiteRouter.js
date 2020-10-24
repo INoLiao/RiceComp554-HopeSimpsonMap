@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from "../Navbar/Navbar";
 import Home from "../Home/Home";
 import Map from "../Map/Map";
+import MapGDS from "../Map/MapGDS";
 import Modeling from "../Modeling/Modeling";
 
 function SiteRouter() {
@@ -10,10 +11,13 @@ function SiteRouter() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/modeling">
+        <Route exact path="/modeling">
           <Modeling />
         </Route>
-        <Route path="/map">
+        <Route exact path="/map/gds">
+          <MapGDS />
+        </Route>
+        <Route exact path="/map">
           <Map />
         </Route>
         <Route path="/">

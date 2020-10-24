@@ -16,7 +16,10 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link className="nav-link" to="/map">Map</Link>
+                  <Link className="nav-link" to="/map">Map<span className="description">@Tableau</span></Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/map/gds">Map<span className="description">@GDS</span></Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/modeling">Modeling</Link>
