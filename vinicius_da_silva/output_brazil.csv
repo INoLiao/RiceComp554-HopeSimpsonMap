@@ -4232,7 +4232,7 @@ Pernambuco,Brazil,-8.05,-34.9,08/10/20,0
 Piaui,Brazil,-5.095,-42.8042,08/10/20,966
 Parana,Brazil,-25.417,-49.25,08/10/20,1507
 Rio de Janeiro,Brazil,-22.911,-43.206,08/10/20,1166
-Rio Grande do Norte,Brazil,-5.783,-35.2,08/10/20,2455
+Rio Grande do Norte,Brazil,-5.783,-35.2,08/10/20,2515
 Rondonia,Brazil,-8.762,-63.904,08/10/20,362
 Roraima,Brazil,2.819,-60.671,08/10/20,557
 Rio Grande do Sul,Brazil,-30.033,-51.23,08/10/20,43
@@ -4240,7 +4240,7 @@ Santa Catarina,Brazil,-27.612,-48.485,08/10/20,993
 Sergipe,Brazil,-10.917,-37.05,08/10/20,281
 Sao Paulo,Brazil,-23.55,-46.633,08/10/20,1289
 Tocantins,Brazil,-10.184,-48.334,08/10/20,758
-Brazil,Brazil,-14.2,-51.9,08/10/20,26446
+Brazil,Brazil,-14.2,-51.9,08/10/20,26506
 Acre,Brazil,-9.975,-67.81,08/11/20,138
 Alagoas,Brazil,-9.666,-35.735,08/11/20,698
 Amazonas,Brazil,-3.1,-60.017,08/11/20,908
@@ -4260,7 +4260,7 @@ Pernambuco,Brazil,-8.05,-34.9,08/11/20,601
 Piaui,Brazil,-5.095,-42.8042,08/11/20,1321
 Parana,Brazil,-25.417,-49.25,08/11/20,1570
 Rio de Janeiro,Brazil,-22.911,-43.206,08/11/20,2547
-Rio Grande do Norte,Brazil,-5.783,-35.2,08/11/20,-151
+Rio Grande do Norte,Brazil,-5.783,-35.2,08/11/20,-211
 Rondonia,Brazil,-8.762,-63.904,08/11/20,1096
 Roraima,Brazil,2.819,-60.671,08/11/20,573
 Rio Grande do Sul,Brazil,-30.033,-51.23,08/11/20,3381
@@ -4268,7 +4268,7 @@ Santa Catarina,Brazil,-27.612,-48.485,08/11/20,2594
 Sergipe,Brazil,-10.917,-37.05,08/11/20,481
 Sao Paulo,Brazil,-23.55,-46.633,08/11/20,11147
 Tocantins,Brazil,-10.184,-48.334,08/11/20,719
-Brazil,Brazil,-14.2,-51.9,08/11/20,50580
+Brazil,Brazil,-14.2,-51.9,08/11/20,50520
 Acre,Brazil,-9.975,-67.81,08/12/20,236
 Alagoas,Brazil,-9.666,-35.735,08/12/20,816
 Amazonas,Brazil,-3.1,-60.017,08/12/20,815
@@ -6016,7 +6016,7 @@ Espirito Santo,Brazil,-20.289,-40.308,10/13/20,946
 Goias,Brazil,-16.667,-49.25,10/13/20,2033
 Maranhao,Brazil,-2.528,-44.304,10/13/20,280
 Minas Gerais,Brazil,-19.917,-43.933,10/13/20,659
-Mato Grosso do Sul,Brazil,-20.484,-54.615,10/13/20,0
+Mato Grosso do Sul,Brazil,-20.484,-54.615,10/13/20,485
 Mato Grosso,Brazil,-15.596,-56.096,10/13/20,733
 Para,Brazil,-1.456,-48.504,10/13/20,839
 Paraiba,Brazil,-7.083,-34.833,10/13/20,140
@@ -6024,12 +6024,376 @@ Pernambuco,Brazil,-8.05,-34.9,10/13/20,77
 Piaui,Brazil,-5.095,-42.8042,10/13/20,648
 Parana,Brazil,-25.417,-49.25,10/13/20,718
 Rio de Janeiro,Brazil,-22.911,-43.206,10/13/20,195
-Rio Grande do Norte,Brazil,-5.783,-35.2,10/13/20,0
+Rio Grande do Norte,Brazil,-5.783,-35.2,10/13/20,558
 Rondonia,Brazil,-8.762,-63.904,10/13/20,153
-Roraima,Brazil,2.819,-60.671,10/13/20,0
+Roraima,Brazil,2.819,-60.671,10/13/20,147
 Rio Grande do Sul,Brazil,-30.033,-51.23,10/13/20,386
 Santa Catarina,Brazil,-27.612,-48.485,10/13/20,395
 Sergipe,Brazil,-10.917,-37.05,10/13/20,259
 Sao Paulo,Brazil,-23.55,-46.633,10/13/20,685
-Tocantins,Brazil,-10.184,-48.334,10/13/20,0
-Brazil,Brazil,-14.2,-51.9,10/13/20,11814
+Tocantins,Brazil,-10.184,-48.334,10/13/20,355
+Brazil,Brazil,-14.2,-51.9,10/13/20,13359
+Acre,Brazil,-9.975,-67.81,10/14/20,29
+Alagoas,Brazil,-9.666,-35.735,10/14/20,128
+Amazonas,Brazil,-3.1,-60.017,10/14/20,654
+Amapa,Brazil,0.034,-51.066,10/14/20,152
+Bahia,Brazil,-12.975,-38.477,10/14/20,2460
+Ceara,Brazil,-3.728,-38.528,10/14/20,862
+Distrito Federal,Brazil,-15.794,-47.883,10/14/20,828
+Espirito Santo,Brazil,-20.289,-40.308,10/14/20,847
+Goias,Brazil,-16.667,-49.25,10/14/20,2136
+Maranhao,Brazil,-2.528,-44.304,10/14/20,484
+Minas Gerais,Brazil,-19.917,-43.933,10/14/20,1346
+Mato Grosso do Sul,Brazil,-20.484,-54.615,10/14/20,440
+Mato Grosso,Brazil,-15.596,-56.096,10/14/20,915
+Para,Brazil,-1.456,-48.504,10/14/20,684
+Paraiba,Brazil,-7.083,-34.833,10/14/20,718
+Pernambuco,Brazil,-8.05,-34.9,10/14/20,742
+Piaui,Brazil,-5.095,-42.8042,10/14/20,868
+Parana,Brazil,-25.417,-49.25,10/14/20,913
+Rio de Janeiro,Brazil,-22.911,-43.206,10/14/20,1152
+Rio Grande do Norte,Brazil,-5.783,-35.2,10/14/20,661
+Rondonia,Brazil,-8.762,-63.904,10/14/20,267
+Roraima,Brazil,2.819,-60.671,10/14/20,505
+Rio Grande do Sul,Brazil,-30.033,-51.23,10/14/20,1962
+Santa Catarina,Brazil,-27.612,-48.485,10/14/20,1507
+Sergipe,Brazil,-10.917,-37.05,10/14/20,193
+Sao Paulo,Brazil,-23.55,-46.633,10/14/20,6031
+Tocantins,Brazil,-10.184,-48.334,10/14/20,360
+Brazil,Brazil,-14.2,-51.9,10/14/20,27844
+Acre,Brazil,-9.975,-67.81,10/15/20,105
+Alagoas,Brazil,-9.666,-35.735,10/15/20,110
+Amazonas,Brazil,-3.1,-60.017,10/15/20,848
+Amapa,Brazil,0.034,-51.066,10/15/20,145
+Bahia,Brazil,-12.975,-38.477,10/15/20,1575
+Ceara,Brazil,-3.728,-38.528,10/15/20,1327
+Distrito Federal,Brazil,-15.794,-47.883,10/15/20,728
+Espirito Santo,Brazil,-20.289,-40.308,10/15/20,871
+Goias,Brazil,-16.667,-49.25,10/15/20,1910
+Maranhao,Brazil,-2.528,-44.304,10/15/20,500
+Minas Gerais,Brazil,-19.917,-43.933,10/15/20,2430
+Mato Grosso do Sul,Brazil,-20.484,-54.615,10/15/20,546
+Mato Grosso,Brazil,-15.596,-56.096,10/15/20,691
+Para,Brazil,-1.456,-48.504,10/15/20,704
+Paraiba,Brazil,-7.083,-34.833,10/15/20,665
+Pernambuco,Brazil,-8.05,-34.9,10/15/20,825
+Piaui,Brazil,-5.095,-42.8042,10/15/20,827
+Parana,Brazil,-25.417,-49.25,10/15/20,1011
+Rio de Janeiro,Brazil,-22.911,-43.206,10/15/20,1077
+Rio Grande do Norte,Brazil,-5.783,-35.2,10/15/20,2324
+Rondonia,Brazil,-8.762,-63.904,10/15/20,219
+Roraima,Brazil,2.819,-60.671,10/15/20,373
+Rio Grande do Sul,Brazil,-30.033,-51.23,10/15/20,1903
+Santa Catarina,Brazil,-27.612,-48.485,10/15/20,1502
+Sergipe,Brazil,-10.917,-37.05,10/15/20,306
+Sao Paulo,Brazil,-23.55,-46.633,10/15/20,6553
+Tocantins,Brazil,-10.184,-48.334,10/15/20,351
+Brazil,Brazil,-14.2,-51.9,10/15/20,30426
+Acre,Brazil,-9.975,-67.81,10/16/20,192
+Alagoas,Brazil,-9.666,-35.735,10/16/20,86
+Amazonas,Brazil,-3.1,-60.017,10/16/20,418
+Amapa,Brazil,0.034,-51.066,10/16/20,182
+Bahia,Brazil,-12.975,-38.477,10/16/20,1536
+Ceara,Brazil,-3.728,-38.528,10/16/20,1341
+Distrito Federal,Brazil,-15.794,-47.883,10/16/20,790
+Espirito Santo,Brazil,-20.289,-40.308,10/16/20,674
+Goias,Brazil,-16.667,-49.25,10/16/20,1498
+Maranhao,Brazil,-2.528,-44.304,10/16/20,406
+Minas Gerais,Brazil,-19.917,-43.933,10/16/20,3031
+Mato Grosso do Sul,Brazil,-20.484,-54.615,10/16/20,464
+Mato Grosso,Brazil,-15.596,-56.096,10/16/20,843
+Para,Brazil,-1.456,-48.504,10/16/20,743
+Paraiba,Brazil,-7.083,-34.833,10/16/20,576
+Pernambuco,Brazil,-8.05,-34.9,10/16/20,654
+Piaui,Brazil,-5.095,-42.8042,10/16/20,682
+Parana,Brazil,-25.417,-49.25,10/16/20,1325
+Rio de Janeiro,Brazil,-22.911,-43.206,10/16/20,3158
+Rio Grande do Norte,Brazil,-5.783,-35.2,10/16/20,189
+Rondonia,Brazil,-8.762,-63.904,10/16/20,211
+Roraima,Brazil,2.819,-60.671,10/16/20,293
+Rio Grande do Sul,Brazil,-30.033,-51.23,10/16/20,1728
+Santa Catarina,Brazil,-27.612,-48.485,10/16/20,1521
+Sergipe,Brazil,-10.917,-37.05,10/16/20,192
+Sao Paulo,Brazil,-23.55,-46.633,10/16/20,5627
+Tocantins,Brazil,-10.184,-48.334,10/16/20,236
+Brazil,Brazil,-14.2,-51.9,10/16/20,28596
+Acre,Brazil,-9.975,-67.81,10/17/20,95
+Alagoas,Brazil,-9.666,-35.735,10/17/20,87
+Amazonas,Brazil,-3.1,-60.017,10/17/20,1402
+Amapa,Brazil,0.034,-51.066,10/17/20,78
+Bahia,Brazil,-12.975,-38.477,10/17/20,1799
+Ceara,Brazil,-3.728,-38.528,10/17/20,73
+Distrito Federal,Brazil,-15.794,-47.883,10/17/20,728
+Espirito Santo,Brazil,-20.289,-40.308,10/17/20,861
+Goias,Brazil,-16.667,-49.25,10/17/20,88
+Maranhao,Brazil,-2.528,-44.304,10/17/20,327
+Minas Gerais,Brazil,-19.917,-43.933,10/17/20,2565
+Mato Grosso do Sul,Brazil,-20.484,-54.615,10/17/20,112
+Mato Grosso,Brazil,-15.596,-56.096,10/17/20,386
+Para,Brazil,-1.456,-48.504,10/17/20,276
+Paraiba,Brazil,-7.083,-34.833,10/17/20,384
+Pernambuco,Brazil,-8.05,-34.9,10/17/20,403
+Piaui,Brazil,-5.095,-42.8042,10/17/20,362
+Parana,Brazil,-25.417,-49.25,10/17/20,803
+Rio de Janeiro,Brazil,-22.911,-43.206,10/17/20,129
+Rio Grande do Norte,Brazil,-5.783,-35.2,10/17/20,0
+Rondonia,Brazil,-8.762,-63.904,10/17/20,84
+Roraima,Brazil,2.819,-60.671,10/17/20,162
+Rio Grande do Sul,Brazil,-30.033,-51.23,10/17/20,2129
+Santa Catarina,Brazil,-27.612,-48.485,10/17/20,1832
+Sergipe,Brazil,-10.917,-37.05,10/17/20,194
+Sao Paulo,Brazil,-23.55,-46.633,10/17/20,5394
+Tocantins,Brazil,-10.184,-48.334,10/17/20,23
+Brazil,Brazil,-14.2,-51.9,10/17/20,20776
+Acre,Brazil,-9.975,-67.81,10/18/20,25
+Alagoas,Brazil,-9.666,-35.735,10/18/20,128
+Amazonas,Brazil,-3.1,-60.017,10/18/20,411
+Amapa,Brazil,0.034,-51.066,10/18/20,41
+Bahia,Brazil,-12.975,-38.477,10/18/20,654
+Ceara,Brazil,-3.728,-38.528,10/18/20,857
+Distrito Federal,Brazil,-15.794,-47.883,10/18/20,653
+Espirito Santo,Brazil,-20.289,-40.308,10/18/20,461
+Goias,Brazil,-16.667,-49.25,10/18/20,0
+Maranhao,Brazil,-2.528,-44.304,10/18/20,164
+Minas Gerais,Brazil,-19.917,-43.933,10/18/20,1685
+Mato Grosso do Sul,Brazil,-20.484,-54.615,10/18/20,367
+Mato Grosso,Brazil,-15.596,-56.096,10/18/20,166
+Para,Brazil,-1.456,-48.504,10/18/20,20
+Paraiba,Brazil,-7.083,-34.833,10/18/20,19
+Pernambuco,Brazil,-8.05,-34.9,10/18/20,106
+Piaui,Brazil,-5.095,-42.8042,10/18/20,194
+Parana,Brazil,-25.417,-49.25,10/18/20,780
+Rio de Janeiro,Brazil,-22.911,-43.206,10/18/20,1309
+Rio Grande do Norte,Brazil,-5.783,-35.2,10/18/20,1705
+Rondonia,Brazil,-8.762,-63.904,10/18/20,0
+Roraima,Brazil,2.819,-60.671,10/18/20,45
+Rio Grande do Sul,Brazil,-30.033,-51.23,10/18/20,324
+Santa Catarina,Brazil,-27.612,-48.485,10/18/20,394
+Sergipe,Brazil,-10.917,-37.05,10/18/20,445
+Sao Paulo,Brazil,-23.55,-46.633,10/18/20,968
+Tocantins,Brazil,-10.184,-48.334,10/18/20,130
+Brazil,Brazil,-14.2,-51.9,10/18/20,12051
+Acre,Brazil,-9.975,-67.81,10/19/20,47
+Alagoas,Brazil,-9.666,-35.735,10/19/20,35
+Amazonas,Brazil,-3.1,-60.017,10/19/20,261
+Amapa,Brazil,0.034,-51.066,10/19/20,72
+Bahia,Brazil,-12.975,-38.477,10/19/20,881
+Ceara,Brazil,-3.728,-38.528,10/19/20,773
+Distrito Federal,Brazil,-15.794,-47.883,10/19/20,752
+Espirito Santo,Brazil,-20.289,-40.308,10/19/20,1000
+Goias,Brazil,-16.667,-49.25,10/19/20,2994
+Maranhao,Brazil,-2.528,-44.304,10/19/20,494
+Minas Gerais,Brazil,-19.917,-43.933,10/19/20,965
+Mato Grosso do Sul,Brazil,-20.484,-54.615,10/19/20,453
+Mato Grosso,Brazil,-15.596,-56.096,10/19/20,554
+Para,Brazil,-1.456,-48.504,10/19/20,867
+Paraiba,Brazil,-7.083,-34.833,10/19/20,114
+Pernambuco,Brazil,-8.05,-34.9,10/19/20,101
+Piaui,Brazil,-5.095,-42.8042,10/19/20,514
+Parana,Brazil,-25.417,-49.25,10/19/20,1140
+Rio de Janeiro,Brazil,-22.911,-43.206,10/19/20,535
+Rio Grande do Norte,Brazil,-5.783,-35.2,10/19/20,165
+Rondonia,Brazil,-8.762,-63.904,10/19/20,306
+Roraima,Brazil,2.819,-60.671,10/19/20,233
+Rio Grande do Sul,Brazil,-30.033,-51.23,10/19/20,1004
+Santa Catarina,Brazil,-27.612,-48.485,10/19/20,1065
+Sergipe,Brazil,-10.917,-37.05,10/19/20,476
+Sao Paulo,Brazil,-23.55,-46.633,10/19/20,437
+Tocantins,Brazil,-10.184,-48.334,10/19/20,341
+Brazil,Brazil,-14.2,-51.9,10/19/20,16579
+Acre,Brazil,-9.975,-67.81,10/20/20,100
+Alagoas,Brazil,-9.666,-35.735,10/20/20,116
+Amazonas,Brazil,-3.1,-60.017,10/20/20,938
+Amapa,Brazil,0.034,-51.066,10/20/20,119
+Bahia,Brazil,-12.975,-38.477,10/20/20,1762
+Ceara,Brazil,-3.728,-38.528,10/20/20,441
+Distrito Federal,Brazil,-15.794,-47.883,10/20/20,556
+Espirito Santo,Brazil,-20.289,-40.308,10/20/20,818
+Goias,Brazil,-16.667,-49.25,10/20/20,916
+Maranhao,Brazil,-2.528,-44.304,10/20/20,475
+Minas Gerais,Brazil,-19.917,-43.933,10/20/20,1459
+Mato Grosso do Sul,Brazil,-20.484,-54.615,10/20/20,417
+Mato Grosso,Brazil,-15.596,-56.096,10/20/20,783
+Para,Brazil,-1.456,-48.504,10/20/20,989
+Paraiba,Brazil,-7.083,-34.833,10/20/20,496
+Pernambuco,Brazil,-8.05,-34.9,10/20/20,664
+Piaui,Brazil,-5.095,-42.8042,10/20/20,672
+Parana,Brazil,-25.417,-49.25,10/20/20,1213
+Rio de Janeiro,Brazil,-22.911,-43.206,10/20/20,1208
+Rio Grande do Norte,Brazil,-5.783,-35.2,10/20/20,624
+Rondonia,Brazil,-8.762,-63.904,10/20/20,119
+Roraima,Brazil,2.819,-60.671,10/20/20,217
+Rio Grande do Sul,Brazil,-30.033,-51.23,10/20/20,1674
+Santa Catarina,Brazil,-27.612,-48.485,10/20/20,1557
+Sergipe,Brazil,-10.917,-37.05,10/20/20,261
+Sao Paulo,Brazil,-23.55,-46.633,10/20/20,4923
+Tocantins,Brazil,-10.184,-48.334,10/20/20,249
+Brazil,Brazil,-14.2,-51.9,10/20/20,23766
+Acre,Brazil,-9.975,-67.81,10/21/20,60
+Alagoas,Brazil,-9.666,-35.735,10/21/20,102
+Amazonas,Brazil,-3.1,-60.017,10/21/20,1669
+Amapa,Brazil,0.034,-51.066,10/21/20,212
+Bahia,Brazil,-12.975,-38.477,10/21/20,1221
+Ceara,Brazil,-3.728,-38.528,10/21/20,1405
+Distrito Federal,Brazil,-15.794,-47.883,10/21/20,815
+Espirito Santo,Brazil,-20.289,-40.308,10/21/20,1162
+Goias,Brazil,-16.667,-49.25,10/21/20,1410
+Maranhao,Brazil,-2.528,-44.304,10/21/20,463
+Minas Gerais,Brazil,-19.917,-43.933,10/21/20,2395
+Mato Grosso do Sul,Brazil,-20.484,-54.615,10/21/20,350
+Mato Grosso,Brazil,-15.596,-56.096,10/21/20,850
+Para,Brazil,-1.456,-48.504,10/21/20,1111
+Paraiba,Brazil,-7.083,-34.833,10/21/20,369
+Pernambuco,Brazil,-8.05,-34.9,10/21/20,624
+Piaui,Brazil,-5.095,-42.8042,10/21/20,766
+Parana,Brazil,-25.417,-49.25,10/21/20,1173
+Rio de Janeiro,Brazil,-22.911,-43.206,10/21/20,1319
+Rio Grande do Norte,Brazil,-5.783,-35.2,10/21/20,55
+Rondonia,Brazil,-8.762,-63.904,10/21/20,199
+Roraima,Brazil,2.819,-60.671,10/21/20,229
+Rio Grande do Sul,Brazil,-30.033,-51.23,10/21/20,1769
+Santa Catarina,Brazil,-27.612,-48.485,10/21/20,1052
+Sergipe,Brazil,-10.917,-37.05,10/21/20,525
+Sao Paulo,Brazil,-23.55,-46.633,10/21/20,4299
+Tocantins,Brazil,-10.184,-48.334,10/21/20,252
+Brazil,Brazil,-14.2,-51.9,10/21/20,25856
+Acre,Brazil,-9.975,-67.81,10/22/20,103
+Alagoas,Brazil,-9.666,-35.735,10/22/20,101
+Amazonas,Brazil,-3.1,-60.017,10/22/20,765
+Amapa,Brazil,0.034,-51.066,10/22/20,228
+Bahia,Brazil,-12.975,-38.477,10/22/20,1450
+Ceara,Brazil,-3.728,-38.528,10/22/20,624
+Distrito Federal,Brazil,-15.794,-47.883,10/22/20,590
+Espirito Santo,Brazil,-20.289,-40.308,10/22/20,660
+Goias,Brazil,-16.667,-49.25,10/22/20,2578
+Maranhao,Brazil,-2.528,-44.304,10/22/20,461
+Minas Gerais,Brazil,-19.917,-43.933,10/22/20,2657
+Mato Grosso do Sul,Brazil,-20.484,-54.615,10/22/20,410
+Mato Grosso,Brazil,-15.596,-56.096,10/22/20,751
+Para,Brazil,-1.456,-48.504,10/22/20,1049
+Paraiba,Brazil,-7.083,-34.833,10/22/20,317
+Pernambuco,Brazil,-8.05,-34.9,10/22/20,359
+Piaui,Brazil,-5.095,-42.8042,10/22/20,705
+Parana,Brazil,-25.417,-49.25,10/22/20,1276
+Rio de Janeiro,Brazil,-22.911,-43.206,10/22/20,1081
+Rio Grande do Norte,Brazil,-5.783,-35.2,10/22/20,123
+Rondonia,Brazil,-8.762,-63.904,10/22/20,275
+Roraima,Brazil,2.819,-60.671,10/22/20,364
+Rio Grande do Sul,Brazil,-30.033,-51.23,10/22/20,1299
+Santa Catarina,Brazil,-27.612,-48.485,10/22/20,2211
+Sergipe,Brazil,-10.917,-37.05,10/22/20,313
+Sao Paulo,Brazil,-23.55,-46.633,10/22/20,3678
+Tocantins,Brazil,-10.184,-48.334,10/22/20,336
+Brazil,Brazil,-14.2,-51.9,10/22/20,24764
+Acre,Brazil,-9.975,-67.81,10/23/20,93
+Alagoas,Brazil,-9.666,-35.735,10/23/20,147
+Amazonas,Brazil,-3.1,-60.017,10/23/20,966
+Amapa,Brazil,0.034,-51.066,10/23/20,146
+Bahia,Brazil,-12.975,-38.477,10/23/20,1861
+Ceara,Brazil,-3.728,-38.528,10/23/20,910
+Distrito Federal,Brazil,-15.794,-47.883,10/23/20,565
+Espirito Santo,Brazil,-20.289,-40.308,10/23/20,1094
+Goias,Brazil,-16.667,-49.25,10/23/20,1809
+Maranhao,Brazil,-2.528,-44.304,10/23/20,517
+Minas Gerais,Brazil,-19.917,-43.933,10/23/20,2029
+Mato Grosso do Sul,Brazil,-20.484,-54.615,10/23/20,479
+Mato Grosso,Brazil,-15.596,-56.096,10/23/20,913
+Para,Brazil,-1.456,-48.504,10/23/20,1327
+Paraiba,Brazil,-7.083,-34.833,10/23/20,494
+Pernambuco,Brazil,-8.05,-34.9,10/23/20,719
+Piaui,Brazil,-5.095,-42.8042,10/23/20,778
+Parana,Brazil,-25.417,-49.25,10/23/20,1155
+Rio de Janeiro,Brazil,-22.911,-43.206,10/23/20,1776
+Rio Grande do Norte,Brazil,-5.783,-35.2,10/23/20,204
+Rondonia,Brazil,-8.762,-63.904,10/23/20,235
+Roraima,Brazil,2.819,-60.671,10/23/20,344
+Rio Grande do Sul,Brazil,-30.033,-51.23,10/23/20,2182
+Santa Catarina,Brazil,-27.612,-48.485,10/23/20,2072
+Sergipe,Brazil,-10.917,-37.05,10/23/20,268
+Sao Paulo,Brazil,-23.55,-46.633,10/23/20,6702
+Tocantins,Brazil,-10.184,-48.334,10/23/20,216
+Brazil,Brazil,-14.2,-51.9,10/23/20,30001
+Acre,Brazil,-9.975,-67.81,10/24/20,96
+Alagoas,Brazil,-9.666,-35.735,10/24/20,130
+Amazonas,Brazil,-3.1,-60.017,10/24/20,779
+Amapa,Brazil,0.034,-51.066,10/24/20,106
+Bahia,Brazil,-12.975,-38.477,10/24/20,1488
+Ceara,Brazil,-3.728,-38.528,10/24/20,815
+Distrito Federal,Brazil,-15.794,-47.883,10/24/20,526
+Espirito Santo,Brazil,-20.289,-40.308,10/24/20,505
+Goias,Brazil,-16.667,-49.25,10/24/20,622
+Maranhao,Brazil,-2.528,-44.304,10/24/20,302
+Minas Gerais,Brazil,-19.917,-43.933,10/24/20,1818
+Mato Grosso do Sul,Brazil,-20.484,-54.615,10/24/20,302
+Mato Grosso,Brazil,-15.596,-56.096,10/24/20,443
+Para,Brazil,-1.456,-48.504,10/24/20,783
+Paraiba,Brazil,-7.083,-34.833,10/24/20,433
+Pernambuco,Brazil,-8.05,-34.9,10/24/20,724
+Piaui,Brazil,-5.095,-42.8042,10/24/20,274
+Parana,Brazil,-25.417,-49.25,10/24/20,1341
+Rio de Janeiro,Brazil,-22.911,-43.206,10/24/20,2026
+Rio Grande do Norte,Brazil,-5.783,-35.2,10/24/20,0
+Rondonia,Brazil,-8.762,-63.904,10/24/20,309
+Roraima,Brazil,2.819,-60.671,10/24/20,249
+Rio Grande do Sul,Brazil,-30.033,-51.23,10/24/20,3132
+Santa Catarina,Brazil,-27.612,-48.485,10/24/20,1862
+Sergipe,Brazil,-10.917,-37.05,10/24/20,239
+Sao Paulo,Brazil,-23.55,-46.633,10/24/20,5614
+Tocantins,Brazil,-10.184,-48.334,10/24/20,66
+Brazil,Brazil,-14.2,-51.9,10/24/20,24984
+Acre,Brazil,-9.975,-67.81,10/25/20,87
+Alagoas,Brazil,-9.666,-35.735,10/25/20,53
+Amazonas,Brazil,-3.1,-60.017,10/25/20,349
+Amapa,Brazil,0.034,-51.066,10/25/20,53
+Bahia,Brazil,-12.975,-38.477,10/25/20,691
+Ceara,Brazil,-3.728,-38.528,10/25/20,308
+Distrito Federal,Brazil,-15.794,-47.883,10/25/20,608
+Espirito Santo,Brazil,-20.289,-40.308,10/25/20,663
+Goias,Brazil,-16.667,-49.25,10/25/20,364
+Maranhao,Brazil,-2.528,-44.304,10/25/20,175
+Minas Gerais,Brazil,-19.917,-43.933,10/25/20,1798
+Mato Grosso do Sul,Brazil,-20.484,-54.615,10/25/20,163
+Mato Grosso,Brazil,-15.596,-56.096,10/25/20,131
+Para,Brazil,-1.456,-48.504,10/25/20,636
+Paraiba,Brazil,-7.083,-34.833,10/25/20,123
+Pernambuco,Brazil,-8.05,-34.9,10/25/20,157
+Piaui,Brazil,-5.095,-42.8042,10/25/20,175
+Parana,Brazil,-25.417,-49.25,10/25/20,727
+Rio de Janeiro,Brazil,-22.911,-43.206,10/25/20,557
+Rio Grande do Norte,Brazil,-5.783,-35.2,10/25/20,210
+Rondonia,Brazil,-8.762,-63.904,10/25/20,111
+Roraima,Brazil,2.819,-60.671,10/25/20,89
+Rio Grande do Sul,Brazil,-30.033,-51.23,10/25/20,0
+Santa Catarina,Brazil,-27.612,-48.485,10/25/20,1108
+Sergipe,Brazil,-10.917,-37.05,10/25/20,148
+Sao Paulo,Brazil,-23.55,-46.633,10/25/20,2725
+Tocantins,Brazil,-10.184,-48.334,10/25/20,45
+Brazil,Brazil,-14.2,-51.9,10/25/20,12254
+Acre,Brazil,-9.975,-67.81,10/26/20,13
+Alagoas,Brazil,-9.666,-35.735,10/26/20,77
+Amazonas,Brazil,-3.1,-60.017,10/26/20,344
+Amapa,Brazil,0.034,-51.066,10/26/20,65
+Bahia,Brazil,-12.975,-38.477,10/26/20,1244
+Ceara,Brazil,-3.728,-38.528,10/26/20,489
+Distrito Federal,Brazil,-15.794,-47.883,10/26/20,776
+Espirito Santo,Brazil,-20.289,-40.308,10/26/20,959
+Goias,Brazil,-16.667,-49.25,10/26/20,1834
+Maranhao,Brazil,-2.528,-44.304,10/26/20,184
+Minas Gerais,Brazil,-19.917,-43.933,10/26/20,708
+Mato Grosso do Sul,Brazil,-20.484,-54.615,10/26/20,0
+Mato Grosso,Brazil,-15.596,-56.096,10/26/20,622
+Para,Brazil,-1.456,-48.504,10/26/20,1211
+Paraiba,Brazil,-7.083,-34.833,10/26/20,135
+Pernambuco,Brazil,-8.05,-34.9,10/26/20,99
+Piaui,Brazil,-5.095,-42.8042,10/26/20,586
+Parana,Brazil,-25.417,-49.25,10/26/20,702
+Rio de Janeiro,Brazil,-22.911,-43.206,10/26/20,3366
+Rio Grande do Norte,Brazil,-5.783,-35.2,10/26/20,0
+Rondonia,Brazil,-8.762,-63.904,10/26/20,139
+Roraima,Brazil,2.819,-60.671,10/26/20,0
+Rio Grande do Sul,Brazil,-30.033,-51.23,10/26/20,1597
+Santa Catarina,Brazil,-27.612,-48.485,10/26/20,1391
+Sergipe,Brazil,-10.917,-37.05,10/26/20,69
+Sao Paulo,Brazil,-23.55,-46.633,10/26/20,863
+Tocantins,Brazil,-10.184,-48.334,10/26/20,0
+Brazil,Brazil,-14.2,-51.9,10/26/20,17473
