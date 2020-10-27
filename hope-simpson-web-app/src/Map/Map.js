@@ -4,7 +4,7 @@ import TableauDashboard from "../TableauDashboard/TableauDashboard";
 
 // Tableau dashboard settings
 const TABLEAU_WORLD_MAP_DASHBOARD_URL = 'https://public.tableau.com/views/COVID19WorldMap/Dashboard-WorldMap';
-const TABLEAU_REGION_COMPARISON_DASHBOARD_URL = 'https://public.tableau.com/views/COVID-19RegionComparison/Dashboard-RegionComparison';
+const TABLEAU_REGION_COMPARISON_DASHBOARD_URL = 'https://public.tableau.com/views/COVID-19RegionComparison/Dashboard-RegionComparisons';
 const TABLEAU_OPTIONS = { device: "desktop" };
 
 function Map () {
