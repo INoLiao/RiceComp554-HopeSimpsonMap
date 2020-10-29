@@ -9,7 +9,7 @@ const TABLEAU_OPTIONS = { device: "desktop" };
 
 function Map () {
   return (
-    <div className="Map-container container align-items-center">
+    <div className="map-container container align-items-center">
       <TableauDashboard
         url={ TABLEAU_WORLD_MAP_DASHBOARD_URL }
         options={ TABLEAU_OPTIONS }

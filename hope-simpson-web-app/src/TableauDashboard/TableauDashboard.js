@@ -14,7 +14,7 @@ function TableauDashboard(props) {
 
   return (
     <div>
-      <div ref={ ref } id="TableauDashboard" />
+      <div ref={ ref } id="tableau-dashboard" />
     </div>
   );
 }
