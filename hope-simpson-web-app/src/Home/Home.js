@@ -1,13 +1,18 @@
 import React from 'react';
 import './Home.css';
+import TableauDashboard from "../TableauDashboard/TableauDashboard";
+
+// Tableau dashboard settings
+const TABLEAU_WORLD_MAP_DASHBOARD_URL = 'https://public.tableau.com/views/COVID-19WorldMapAll/Dashboard-WorldMapAll';
+const TABLEAU_OPTIONS = { device: "desktop" };
 
 function Home() {
   return (
     <div className="home-container container">
-      <div className="home-kanban rounded">
-        <div className="display-4">Hope-Simpson Research on COVID-19</div>
-        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at commodi dolore iure minus perferendis perspiciatis quae, quaerat repellendus voluptatibus.</p>
-      </div>
+      <TableauDashboard
+        url={ TABLEAU_WORLD_MAP_DASHBOARD_URL }
+        options={ TABLEAU_OPTIONS }
+      />
     </div>
   );
 }
