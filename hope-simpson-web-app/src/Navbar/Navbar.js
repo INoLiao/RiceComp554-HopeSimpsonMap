@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <div className="navbar-wrapper">
+    <div className="navbar-wrapper sticky-top">
       <div className="container navbar-container">
         <div className="row-fluid">
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">

@@ -6,13 +6,20 @@ import profiles from "./ProfileDatabase";
 const RICE_IMAGE_PATH = '/assets/rice.jpeg';
 
 function Team() {
+
+  // Sort names alphabetically except Professor Simar
+  const sortedProfiles = [
+    ...profiles.slice(0, 1),
+    ...profiles.slice(1)
+      .sort((a, b) => (a.name > b.name) ? 1 : -1)];
+
   return (
     <div>
       <img src={ RICE_IMAGE_PATH } alt="" className="img-fluid"/>
       <div className="team-container container">
         <div className="row">
           {
-            profiles && profiles.map((profile, index) => (
+            sortedProfiles && sortedProfiles.map((profile, index) => (
               <div className="col-md-6" key={ index }>
                 <Profile
                   name={ profile.name }
