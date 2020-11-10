@@ -36,10 +36,10 @@ const profiles = [
   },
   {
     name: 'Vinicius Da Silva',
-    avatar: '/assets/defaultAvatar.png',
-    title: 'Your Title at Rice University',
-    details: 'Your contributions to this project',
-    link: '',
+    avatar: '/assets/vini-da-silva.jpg',
+    title: 'PhD Candidate at Rice University',
+    details: 'COVID-19 Data | Network Modeling',
+    link: 'https://www.linkedin.com/in/vini-goncalves/',
   },
   {
     name: 'Yu-Che Cheng',
