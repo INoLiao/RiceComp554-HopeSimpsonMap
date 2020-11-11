@@ -45,9 +45,9 @@ with open('output_brazil.csv', mode='w') as output_file:
                 #print(row)
                 #print(f'\t{row[0]} {row[1]} {row[2]} {row[3]}')
                 if len(row) > 8:
-                    state_id = row[4]
+                    state_id = row[3]
                     date = convert_date_format(row[1])
-                    daily_cases = row[8]
+                    daily_cases = row[7]
                     state_info = my_dict[state_id]
                     output_writer.writerow([state_info[0], 'Brazil', state_info[1], state_info[2], date, daily_cases])
                 line_count += 1
