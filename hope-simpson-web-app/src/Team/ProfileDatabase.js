@@ -1,7 +1,7 @@
 const profiles = [
   {
     name: 'Ray Simar',
-    avatar: '/assets/Ray.jpeg',
+    avatar: '/assets/ray-simar.jpeg',
     title: 'Professor in the Practice',
     organization: 'Department of ECE at Rice University',
     roles: ['Project Inspiration', 'Project Advisor'],
@@ -25,11 +25,11 @@ const profiles = [
   },
   {
     name: 'Chang-Yuan Shih',
-    avatar: '/assets/defaultAvatar.png',
-    title: '',
+    avatar: '/assets/changyuan-shih.jpg',
+    title: 'Master of Computer Science Student',
     organization: 'Rice University',
-    roles: [],
-    link: '',
+    roles: ['Web Dev', 'Google Data Studio UI'],
+    link: 'https://www.csie.ntu.edu.tw/~cyshih',
   },
   {
     name: 'Howard Wang',
