@@ -10,7 +10,7 @@ const profiles = [
   {
     name: 'I-No Liao',
     avatar: '/assets/ino-liao.jpeg',
-    title: 'Master of Computer Science Student',
+    title: 'Master of Computer Science',
     organization: 'Rice University',
     roles: ['Web Dev', 'COVID-19 Data', 'Tableau UI'],
     link: 'https://inoliao.info/',
@@ -26,7 +26,7 @@ const profiles = [
   {
     name: 'Chang-Yuan Shih',
     avatar: '/assets/changyuan-shih.jpg',
-    title: 'Master of Computer Science Student',
+    title: 'Master of Computer Science',
     organization: 'Rice University',
     roles: ['Web Dev', 'Google Data Studio UI'],
     link: 'https://www.csie.ntu.edu.tw/~cyshih',
