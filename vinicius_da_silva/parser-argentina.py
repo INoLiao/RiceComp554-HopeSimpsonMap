@@ -75,6 +75,9 @@ with open('Covid19Casos.csv') as csv_file:
         for row in csv_reader:
                 if line_count == 0:
                         line_count += 1
+                elif line_count < 1000:
+                        print(row)
+                        line_count += 1
                 else:
                         #Here add this line input to the data-structure
                         if (row[9], row[5]) in all_dict:
