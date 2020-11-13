@@ -21,9 +21,9 @@ provinces_set = set()
 dates_set = set()
 #
 # Latitude and longitude dictionary:
-lat_dict = {'Formosa' : -26.183, 'Chaco' : -27.451, 'Neuquén' : -38.953, 'Catamarca' : -28.467, 'Buenos Aires' : -34.603, 'Salta' : -24.783, 'Tierra del Fuego' : -54.362, 'Misiones' : -26.920, 'La Rioja' : -29.433, 'Santa Fe' : -33.723, 'Santa Cruz' : -48.620, 'La Pampa' : -36.617, 'Río Negro' : -40.800, 'Tucumán' : -26.940, 'San Luis' : -33.300, 'Jujuy' : -23.750, 'Santiago del Estero' : -27.783, 'Entre Ríos' : -32.048, 'Corrientes' : -28.660, 'San Juan' : -30.870, 'Chubut' : -43.300, 'Mendoza' : -32.890, 'Córdoba' : -31.417}
+lat_dict = {'Formosa' : -26.183, 'Chaco' : -27.451, 'Neuquén' : -38.953, 'Catamarca' : -28.467, 'Buenos Aires' : -33.700, 'Salta' : -24.783, 'Tierra del Fuego' : -54.362, 'Misiones' : -26.920, 'La Rioja' : -29.433, 'Santa Fe' : -33.723, 'Santa Cruz' : -48.620, 'La Pampa' : -36.617, 'Río Negro' : -40.800, 'Tucumán' : -26.940, 'San Luis' : -33.300, 'Jujuy' : -23.750, 'Santiago del Estero' : -27.783, 'Entre Ríos' : -32.048, 'Corrientes' : -28.660, 'San Juan' : -30.870, 'Chubut' : -43.300, 'Mendoza' : -32.890, 'Córdoba' : -31.417, 'CABA' : -34.603}
 
-long_dict = {'Formosa' : -58.183, 'Chaco' : -58.987, 'Neuquén' : -68.064, 'Catamarca' : -65.783, 'Buenos Aires' : -58.382, 'Salta' : -65.417, 'Tierra del Fuego' : -67.638, 'Misiones' : -54.520, 'La Rioja' : -66.850, 'Santa Fe' : --62.246, 'Santa Cruz' : -70.010, 'La Pampa' : -64.283, 'Río Negro' : -63.000, 'Tucumán' : -65.340, 'San Luis' : -66.35, 'Jujuy' : -65.500, 'Santiago del Estero' : -64.267, 'Entre Ríos' : -60.281, 'Corrientes' : -57.630, 'San Juan' : -68.980, 'Chubut' : -65.100, 'Mendoza' : -68.847, 'Córdoba' : -64.183}
+long_dict = {'Formosa' : -58.183, 'Chaco' : -58.987, 'Neuquén' : -68.064, 'Catamarca' : -65.783, 'Buenos Aires' : -61.000, 'Salta' : -65.417, 'Tierra del Fuego' : -67.638, 'Misiones' : -54.520, 'La Rioja' : -66.850, 'Santa Fe' : --62.246, 'Santa Cruz' : -70.010, 'La Pampa' : -64.283, 'Río Negro' : -63.000, 'Tucumán' : -65.340, 'San Luis' : -66.35, 'Jujuy' : -65.500, 'Santiago del Estero' : -64.267, 'Entre Ríos' : -60.281, 'Corrientes' : -57.630, 'San Juan' : -68.980, 'Chubut' : -65.100, 'Mendoza' : -68.847, 'Córdoba' : -64.183, 'CABA' : -58.382}
 
 #Create a function to convert date formats:
 def convert_date_format(date_in):
@@ -68,31 +68,32 @@ def is_last_date(input, last):
         else:
                 return False
 
-        
+#Read all dataset and fill out the data structures
 with open('Covid19Casos.csv') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
         for row in csv_reader:
+                province = row[5]
+                date = row[9]
+                outcome = row[20] #"Descartado" or "Confirmado" or "Suspechoso", respectively: discarded, confirmed, suspected
                 if line_count == 0:
                         line_count += 1
-                elif line_count < 1000:
-                        print(row)
-                        line_count += 1
                 else:
-                        #Here add this line input to the data-structure
-                        if (row[9], row[5]) in all_dict:
-                                all_dict[(row[9], row[5])] += 1;
+                    if outcome == 'Confirmado':
+                        #Here add this line input to the data-structure if it is confirmed
+                        if (date, province) in all_dict:
+                                all_dict[(date, province)] += 1;
                         else:
-                                all_dict[(row[9], row[5])] = 1;
-                        if row[5] not in provinces_set:
-                                provinces_set.add(row[5])
-                        if row[9] not in dates_set:
-                                dates_set.add(row[9])
-                        if is_first_date(row[9], first_date):
-                                first_date = row[9]
-                        if is_last_date(row[9], first_date):
-                                last_date = row[9]
-                        line_count += 1
+                                all_dict[(date, province)] = 1;
+                        if province not in provinces_set:
+                                provinces_set.add(province)
+                        if date not in dates_set:
+                                dates_set.add(date)
+                                if is_first_date(date, first_date):
+                                    first_date = date
+                                if is_last_date(date, first_date):
+                                    last_date = date
+                    line_count += 1
         print(f'Processed {line_count} lines.')
 
 # Using the dictionary of all data, create output csv file named output_argentina.csv
@@ -104,14 +105,17 @@ with open('Covid19Casos.csv') as csv_file:
 
 # Must generate output with format:
 # Province_State | Country_Region | Lat | Long | Date | Confirmed Cases
-# Buenos Aires   | Argentina | -36.001 | -51.954 | mm/dd/aa | 12
+#e.g., Buenos Aires | Argentina | -36.001 | -51.954 | mm/dd/aa | 12
 
 with open('output_argentina.csv', mode='w') as output_file:
         output_writer = csv.writer(output_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         output_writer.writerow(['Province_State', 'Country_Region', 'Lat', 'Long', 'Date', 'Confirmed Cases'])
+        count_confirmed = 0
         for province in provinces_set:
                 for date in dates_set:
-                        if (date, province) in all_dict and (province != 'SIN ESPECIFICAR') and (province != 'CABA') and (date != ''):
+                        if (date, province) in all_dict and (province != 'SIN ESPECIFICAR') and (date != ''):
                                 output_writer.writerow([province, 'Argentina', lat_dict[province], long_dict[province], convert_date_format(date), all_dict[(date, province)]])
-
+                                count_confirmed += all_dict[(date, province)]
+        print(f'Confirmed cases = {count_confirmed}')
+        
 #That's all folks
