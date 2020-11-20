@@ -12,7 +12,8 @@ const slideImages = [
   './images/p5.jpg',
   './images/p6.jpg',
   './images/p7.jpg',
-  './images/p8.jpg'
+  './images/p8.jpg',
+  './images/p9.jpg'
 ];
 
 const properties = {
@@ -62,6 +63,10 @@ const Slideshow = () => {
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[8]})`}}>
+            </div>
+          </div>
+          <div className="each-slide">
+            <div style={{'backgroundImage': `url(${slideImages[9]})`}}>
             </div>
           </div>
         </Slide>
