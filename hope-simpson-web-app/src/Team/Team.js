@@ -18,7 +18,7 @@ function Team() {
     <div>
       <img src={ RICE_IMAGE_PATH } alt="" className="img-fluid"/>
       <div className="team-container container">
-        <div className="row">
+        <div className="row justify-content-center">
           {
             profileList && profileList.map((profile, index) =>
               <div className="col-md-6 col-lg-4 card-deck" key={ index }>
