@@ -1,6 +1,8 @@
 import React from 'react';
 import TableauDashboard from '../../TableauDashboard/TableauDashboard';
 
+
+const TABLEAU_FFT_SAMPLE_URL = 'https://public.tableau.com/views/FFT_sample/1'
 const TABLEAU_FFT_ANALYSIS_URL = 'https://public.tableau.com/views/seven_day_filtering_zero_padding_8KFFT/1';
 const TABLEAU_SUN_DECLINATION_URL = 'https://public.tableau.com/views/SunDeclinationoverayear/1_1'
 const TABLEAU_OPTIONS = { device: "desktop" };
@@ -10,10 +12,10 @@ function SpectralAnalysis() {
     <div>
         <h>
             <div className="display-4">Sun Declination</div>
-            <p className="lead">In Spectral Analysis, Our goal is to find if Sun Declination would take effect on COVID-19.</p>
-            <p className="lead">The following formula is the declination of Sun over a year, where N is the day of the year beginning with N=0 at midnight Universal Time (UT) as January 1 begins.</p>
+            <p className="lead">Hope-Simpson hypothesized a relationship between the declination of the Sun on the rise and fall of influenza cases. In our Fourier-based analysis, our goal is to investigate any appearance of the influence of Sun declination on reported cases of COVID-19.</p>
+            <p className="lead">The following formula is the declination of Sun over a year, where N is the day of the year beginning with N=0 at midnight Universal Time (UT) as January 1 begins.  The formula is less than +/- 0.2 degrees.</p>
             <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/583fa421f34aaf0bc31729bebc784ed8d17d9742" alt="Sun Declination"></img>
-            <p>The declination has a period of 365 days which is a frequency of 1/365 (about 0.0027). And that is the peak of the spectrum.</p>
+            <p className="lead">The declination has a period of 365 days which is a frequency of 1/365 (about 0.0027). And that is the peak of the spectrum.</p>
         </h>
         <div style = {{height:400}}>
             <TableauDashboard 
@@ -24,23 +26,46 @@ function SpectralAnalysis() {
         <h>
             <div className="display-4">COVID-19 Data Spectral Analysis</div>
             <p className="lead">
-                To observe the spectrum of COVID-19 cases, several regions in different latitudes are selected and compared with each other.
-                In Spectral Analysis, we use FFT(<a href="https://en.wikipedia.org/wiki/Fast_Fourier_transform">Fast Fourier Transform</a>) to transform the Confirmed Case to the spectrum.
-                And we have used the following techniques to process our Data.
+                To observe the frequency spectrum of COVID-19 cases, different latitudes are selected and compared with each other.
+                In the Fourier-based Analysis, we are using the DFT(Discrete Fourier Transform) calculated using FFT(<a href="https://en.wikipedia.org/wiki/Fast_Fourier_transform">Fast Fourier Transform</a>) to transform the sequence of confirmed cases to the frequency spectrum.
+                To facilitate this analysis, some specific steps were taken:
                 <ul>
-                    <li>To eliminate high-frequency rough harmonics, the Confirmed Cases are filtered by the Seven Day Average.</li>
-                    <li>To see if can separate signals that are close in frequency, we apply Kaiser Window. (Currently, the window is a Rectangle window with beta = 0. And we will try other values of beta later.)</li>
-                    <li>To eliminate a big spike in the zeroth component of the DFT, which is the average of the cases, the Confirmed Data was subtracted by the mean of the cases.</li>
-                    <li>To improve the resolution of the FFT, we utilized zero paddings to extend the data into 8K length.</li>
-                    <li>To fairly compare pair of regions that have a difference in population, the amplitudes of FFTs are normalized by "the amplitudes of the FFT divided by the maximum amplitude of the FFT".</li>
+                    <li>To remove some of the noisy variation found in daily cases reported, the confirmed cases are filtered using a seven-day average.</li>
+                    <li>Since confirmed cases are never negative, they would tend to exhibit a large average component in the DFT analysis.  This average value is subtracted from the sequence to remove it and to make it easier to see the impact of the various frequency components.</li>
+                    <li>To see if we can better resolve frequency components we apply a Kaiser window.  In our current analysis, the Kaiser window beta is zero. This makes the window equivalent to a rectangular window.</li>
+                    <li>To improve the resolution of the DFT, we utilized zero paddings to extend the data length to 8,192.</li>
+                    <li>To compare pairs of regions with a large difference in total cases, the FFTs are normalized by the maximum amplitude of the FFT.</li>
                 </ul>
-                Since we want to focus on the low-frequency components, the following plots are only the low-frequency parts of the FFTs.
+                Since we want to focus on the low-frequency components, the following plots are showing the low-frequency parts of the FFTs.
             </p>
         </h>
-        <TableauDashboard 
-        url={ TABLEAU_FFT_ANALYSIS_URL }
-        options={ TABLEAU_OPTIONS }
-        />
+        <h>
+            <div className="display-4">Sample of Fourier-based analysis</div>
+            <p className="lead">Looking at the Fourier-based analysis of Italy reported cases (here we show the reported daily cases, the seven-day moving average of the cases, and the DFT of these cases) we are beginning to see some interesting components whose frequencies are near or near multiples of the Sun’s declination frequency. </p>
+        </h>
+        <div style = {{height:500}}>
+            <TableauDashboard 
+            url={ TABLEAU_FFT_SAMPLE_URL }
+            options={ TABLEAU_OPTIONS }
+            />
+        </div>
+        <h>
+        <p className="lead">By looking at the curve of reported cases, we see the two bumps in cases, the first bump being due to the initial cases, and the second bump, several months later, corresponds to the winter outbreak.  This would tend to cause the DFT to report a frequency corresponding to a period of about half a year and a period of about a year.  We can also see higher harmonics.</p>
+        <p className="lead">Finally, we have a few limitations that present themselves:
+            <ul>
+                <li>We actually do not have a complete yearly cycle of COVID-19 cases to analyze.  That situation will improve early in 2021.</li>
+                <li>We are not at “steady-state” as is the case with influenza.</li>
+                <li>We do still have a relatively small number of days of data</li>
+            </ul>
+        </p>
+        <p className="lead">The next few graphs overlay regions from the same latitude region.  We can see some similarity between the DFT of these cases and harmonics that are similar to the Italy cases described above.</p>
+        </h>
+        <div style = {{height:1100}}>
+            <TableauDashboard 
+            url={ TABLEAU_FFT_ANALYSIS_URL }
+            options={ TABLEAU_OPTIONS }
+            />
+        </div>
     </div>
   );
 }
