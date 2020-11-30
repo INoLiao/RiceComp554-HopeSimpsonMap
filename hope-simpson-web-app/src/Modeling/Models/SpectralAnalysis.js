@@ -13,6 +13,7 @@ function SpectralAnalysis() {
             <p className="lead">In Spectral Analysis, Our goal is to find if Sun Declination would take effect on COVID-19.</p>
             <p className="lead">The following formula is the declination of Sun over a year, where N is the day of the year beginning with N=0 at midnight Universal Time (UT) as January 1 begins.</p>
             <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/583fa421f34aaf0bc31729bebc784ed8d17d9742" alt="Sun Declination"></img>
+            <p>The declination has a period of 365 days which is a frequency of 1/365 (about 0.0027). And that is the peak of the spectrum.</p>
         </h>
         <div style = {{height:400}}>
             <TableauDashboard 
