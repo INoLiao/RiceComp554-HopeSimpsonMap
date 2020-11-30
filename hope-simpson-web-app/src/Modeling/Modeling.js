@@ -18,7 +18,7 @@ function Modeling () {
             <NavLink exact className="nav-link" to={`${url}/virusspreadingmodel`}>Virus Spreading Model</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink exact className="nav-link" to={`${url}/model2`}>Model 2</NavLink>
+            <NavLink exact className="nav-link" to={`${url}/spectralanalysis`}>Spectral Analysis</NavLink>
           </li>
           <li className="nav-item">
             <NavLink exact className="nav-link" to={`${url}/model3`}>Model 3</NavLink>
@@ -28,6 +28,9 @@ function Modeling () {
       <Switch>
         <Route exact path={path}>
           <Redirect to={`${url}/virusspreadingmodel`} />
+        </Route>
+        <Route exact path={path}>
+          <Redirect to={`${url}/spectralanalysis`} />
         </Route>
         <Route path={`${path}/:modelId`}>
           <ModelTriage />
