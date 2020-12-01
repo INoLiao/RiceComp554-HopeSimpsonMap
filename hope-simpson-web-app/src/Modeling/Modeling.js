@@ -18,7 +18,7 @@ function Modeling () {
             <NavLink exact className="nav-link" to={`${url}/virusspreadingmodel`}>Virus Spreading Model</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink exact className="nav-link" to={`${url}/spectralanalysis`}>Spectral Analysis</NavLink>
+            <NavLink exact className="nav-link" to={`${url}/fourier-basedanalysis`}>Fourier-Based Analysis</NavLink>
           </li>
           <li className="nav-item">
             <NavLink exact className="nav-link" to={`${url}/model3`}>Model 3</NavLink>
