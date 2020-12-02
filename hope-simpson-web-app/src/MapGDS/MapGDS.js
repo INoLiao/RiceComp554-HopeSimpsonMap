@@ -1,5 +1,5 @@
 import React from 'react';
-import './Map.css';
+import './MapGDS.css';
 
 const GDS_REPORT_PATHS = [
   // Overview
@@ -8,10 +8,10 @@ const GDS_REPORT_PATHS = [
   "https://datastudio.google.com/embed/reporting/30c1e5a8-6cbf-43ba-9796-b4bb042082f6/page/cm8pB",
   // Province/State Slice
   "https://datastudio.google.com/embed/reporting/30c1e5a8-6cbf-43ba-9796-b4bb042082f6/page/dF9pB"
-]
+];
 const GDS_REPORT_TITLES = [
   "Overview", "Four Zones Concept", "Province/State Slice"
-]
+];
 
 class MapGDS extends React.Component{
   constructor(props) {
@@ -27,7 +27,7 @@ class MapGDS extends React.Component{
   render() {
     return (
       <div className="map-container container align-items-center">
-        <ul className="nav nav-tabs justify-content-end">
+        <ul className="map-gds-navbar nav nav-tabs justify-content-end">
           <li className="nav-item disabled">
             <a className="nav-link disabled" href="/#">COVID-19 World Map <span style={{fontSize: "xx-small"}}>Powered by Google Data Studio</span></a>
           </li>
@@ -50,9 +50,6 @@ class MapGDS extends React.Component{
       </div>
     );
   }
-  
-
-
 }
 
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import './Home.css';
 import TableauDashboard from "../TableauDashboard/TableauDashboard";
 
 // Tableau dashboard settings
