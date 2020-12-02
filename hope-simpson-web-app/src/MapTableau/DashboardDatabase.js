@@ -2,17 +2,17 @@ const dashboards = [
   {
     name: 'Four Latitude Zones',
     url: 'fourlatitudezones',
-    tableauUrl: 'https://public.tableau.com/views/COVID-19FourZones/Dashboard-FourZones'
+    tableauUrl: 'https://public.tableau.com/views/hs-four-latitude-zones/Dashboard-FourLatitudeZones'
   },
   {
     name: 'Region Comparisons',
     url: 'regioncomparisons',
-    tableauUrl: 'https://public.tableau.com/views/COVID-19RegionComparisons/Dashboard-RegionComparisons'
+    tableauUrl: 'https://public.tableau.com/views/hs-region-comparisons/Dashboard-RegionComparisons'
   },
   {
     name: 'North to South Slice',
     url: 'northtosouthslice',
-    tableauUrl: 'https://public.tableau.com/views/COVID-19Slicing/Dashboard-Slicing'
+    tableauUrl: 'https://public.tableau.com/views/hs-north-to-south-slice/Dashboard-NorthToSouthSlice'
   }
 ];
 

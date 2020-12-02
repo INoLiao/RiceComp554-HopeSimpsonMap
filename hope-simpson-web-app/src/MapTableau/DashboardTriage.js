@@ -4,7 +4,7 @@ import TableauDashboard from "../TableauDashboard/TableauDashboard";
 import dashboards from "./DashboardDatabase";
 
 // Tableau dashboard settings
-const TABLEAU_OPTIONS = { device: "desktop" };
+const TABLEAU_OPTIONS = { device: ["desktop", "phone"] };
 
 function ModelTriage() {
   let { sectionId } = useParams();
