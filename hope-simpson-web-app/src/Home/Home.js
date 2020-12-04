@@ -13,7 +13,7 @@ function Home() {
       <h2 className="text-center">Modern Tools Applied to a 90’s Concept</h2>
       <hr/>
       <p className="lead">A very cordial welcome to the home page for work done by some of the members of the fall class of COMP/ELEC 425/554! The class assignment was to create a platform based on modern databases, visualization, web design, virtual machines, signal processing, and data analysis. Then to use this platform to refresh past work, that studied the spread of the influenza virus, to our modern problem of COVID-19.</p>
-      <p className="lead">On our Home page, you can begin a bit of exploration of your own looking at cases around the world. Explore the map, click on a location, and see a plot of the daily reported cases and a histogram of the cases, on a weekly basis.</p>
+      <p className="lead">On our Home page, you can begin a bit of exploration of your own looking at cases around the world. Explore the map, click on a location, and see a plot of the daily reported cases and a histogram of the cases, on a weekly basis. The gray bar in a histogram means the total cases, and the blue bar inside it can show the concentration of cases in a region.</p>
       <div style={{ height: 1050 }}>
         <TableauDashboard
           url={ TABLEAU_WORLD_MAP_DASHBOARD_URL }

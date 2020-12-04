@@ -60,7 +60,7 @@ function SpectralAnalysis() {
         </p>
         <p className="lead">The next few graphs overlay regions from the same latitude region.  We can see some similarity between the DFT of these cases and harmonics that are similar to the Italy cases described above.</p>
         </h>
-        <div style = {{height:1100}}>
+        <div style = {{height:900}}>
             <TableauDashboard 
             url={ TABLEAU_FFT_ANALYSIS_URL }
             options={ TABLEAU_OPTIONS }
