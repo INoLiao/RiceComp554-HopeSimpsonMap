@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from "../Navbar/Navbar";
 import Home from "../Home/Home";
 import About from "../About/About";
-import Map from "../Map/Map";
-import MapGDS from "../Map/MapGDS";
+import MapTableau from "../MapTableau/MapTableau";
+import MapGDS from "../MapGDS/MapGDS";
 import Modeling from "../Modeling/Modeling";
 import Team from "../Team/Team";
 
@@ -19,8 +19,8 @@ function SiteRouter() {
         <Route exact path="/map/gds">
           <MapGDS />
         </Route>
-        <Route exact path="/map">
-          <Map />
+        <Route path="/map/tableau">
+          <MapTableau />
         </Route>
         <Route path="/modeling">
           <Modeling />
