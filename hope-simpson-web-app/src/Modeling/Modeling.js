@@ -11,10 +11,10 @@ function Modeling () {
       <div className="modeling-navbar">
         <ul className="nav nav-tabs">
           <li className="nav-item">
-            <NavLink exact className="nav-link" to={`${url}/virusspreadingmodel`}>Virus Spreading Model</NavLink>
+            <NavLink exact className="nav-link" to={`${url}/fourier-basedanalysis`}>Fourier-Based Analysis</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink exact className="nav-link" to={`${url}/fourier-basedanalysis`}>Fourier-Based Analysis</NavLink>
+            <NavLink exact className="nav-link" to={`${url}/virusspreadingmodel`}>Virus Spreading Model</NavLink>
           </li>
           <li className="nav-item">
             <NavLink exact className="nav-link" to={`${url}/model3`}>Model 3</NavLink>
