@@ -23,7 +23,7 @@ function Modeling () {
       </div>
       <Switch>
         <Route exact path={path}>
-          <Redirect to={`${url}/virusspreadingmodel`} />
+          <Redirect to={`${url}/fourier-basedanalysis`} />
         </Route>
         <Route path={`${path}/:modelId`}>
           <ModelTriage />
