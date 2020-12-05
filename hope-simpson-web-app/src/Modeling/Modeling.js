@@ -8,17 +8,13 @@ function Modeling () {
 
   return (
     <div className="modeling-container container">
-      <div className="modeling-kanban rounded">
-        <div className="display-4">COVID-19 Modeling</div>
-        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at commodi dolore iure minus perferendis perspiciatis quae, quaerat repellendus voluptatibus.</p>
-      </div>
       <div className="modeling-navbar">
         <ul className="nav nav-tabs">
           <li className="nav-item">
-            <NavLink exact className="nav-link" to={`${url}/virusspreadingmodel`}>Virus Spreading Model</NavLink>
+            <NavLink exact className="nav-link" to={`${url}/fourier-basedanalysis`}>Fourier-Based Analysis</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink exact className="nav-link" to={`${url}/fourier-basedanalysis`}>Fourier-Based Analysis</NavLink>
+            <NavLink exact className="nav-link" to={`${url}/virusspreadingmodel`}>Virus Spreading Model</NavLink>
           </li>
           <li className="nav-item">
             <NavLink exact className="nav-link" to={`${url}/model3`}>Model 3</NavLink>
@@ -27,10 +23,7 @@ function Modeling () {
       </div>
       <Switch>
         <Route exact path={path}>
-          <Redirect to={`${url}/virusspreadingmodel`} />
-        </Route>
-        <Route exact path={path}>
-          <Redirect to={`${url}/spectralanalysis`} />
+          <Redirect to={`${url}/fourier-basedanalysis`} />
         </Route>
         <Route path={`${path}/:modelId`}>
           <ModelTriage />

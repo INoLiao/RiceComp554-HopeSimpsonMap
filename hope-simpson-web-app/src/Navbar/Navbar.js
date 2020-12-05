@@ -21,7 +21,7 @@ function Navbar() {
                   <NavLink exact className="nav-link" to="/about">About</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink exact className="nav-link" to="/map">Map<span className="description">@Tableau</span></NavLink>
+                  <NavLink exact className="nav-link" to="/map/tableau">Map<span className="description">@Tableau</span></NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink exact className="nav-link" to="/map/gds">Map<span className="description">@GDS</span></NavLink>

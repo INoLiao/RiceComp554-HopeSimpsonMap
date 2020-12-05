@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import './TableauDashboard.css';
 
-function TableauDashboard(props) {
+function TableauDashboard({ url, options }) {
 
   const ref = useRef(null);
 
@@ -9,7 +9,7 @@ function TableauDashboard(props) {
   useEffect(() => initViz());
 
   const initViz = () => {
-    return new window.tableau.Viz(ref.current, props.url, props.options);
+    return new window.tableau.Viz(ref.current, url, options);
   };
 
   return (
