@@ -11,11 +11,11 @@ function SpectralAnalysis() {
   return (
     <div>
         <h>
-            <div className="display-4">Sun Declination</div>
+            <h2>Sun Declination</h2>
             <p className="lead">Hope-Simpson hypothesized a relationship between the declination of the Sun on the rise and fall of influenza cases. In our Fourier-based analysis, our goal is to investigate any appearance of the influence of Sun declination on reported cases of COVID-19.</p>
-            <p className="lead">The following formula is the declination of Sun over a year, where N is the day of the year beginning with N=0 at midnight Universal Time (UT) as January 1 begins.  The formula is less than +/- 0.2 degrees.</p>
+            <p className="lead">The following formula is the declination of Sun over a year, where N is the day of the year beginning with N=0 at midnight Universal Time (UT) as January 1 begins. The error of the formula is less than +/- 0.2 degrees.</p>
             <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/583fa421f34aaf0bc31729bebc784ed8d17d9742" alt="Sun Declination"></img>
-            <p className="lead">The declination has a period of 365 days which is a frequency of 1/365 (about 0.0027). And that is the peak of the spectrum.</p>
+            <p className="lead">The declination has a period of 365 days which is a frequency of 1/365 cycles/day (about 0.0027 cycles/day). And that is the peak of the spectrum.</p>
         </h>
         <div style = {{height:400}}>
             <TableauDashboard 
@@ -24,10 +24,10 @@ function SpectralAnalysis() {
             />
         </div>
         <h>
-            <div className="display-4">COVID-19 Data Spectral Analysis</div>
+            <h2>COVID-19 Data Spectral Analysis</h2>
             <p className="lead">
                 To observe the frequency spectrum of COVID-19 cases, different latitudes are selected and compared with each other.
-                In the Fourier-based Analysis, we are using the DFT(Discrete Fourier Transform) calculated using FFT(<a href="https://en.wikipedia.org/wiki/Fast_Fourier_transform">Fast Fourier Transform</a>) to transform the sequence of confirmed cases to the frequency spectrum.
+                In the Fourier-based Analysis, we are using the DFT(Discrete Fourier Transform) calculated using FFT(<a href="https://cnx.org/contents/gua6b7go@22.1:gGcNzVsy@10/Introduction-Fast-Fourier-Transforms">Fast Fourier Transform</a>) to transform the sequence of confirmed cases to the frequency spectrum.
                 To facilitate this analysis, some specific steps were taken:
                 <ul>
                     <li>To remove some of the noisy variation found in daily cases reported, the confirmed cases are filtered using a seven-day average.</li>
@@ -40,7 +40,7 @@ function SpectralAnalysis() {
             </p>
         </h>
         <h>
-            <div className="display-4">Sample of Fourier-based analysis</div>
+            <h2>Sample of Fourier-based analysis</h2>
             <p className="lead">Looking at the Fourier-based analysis of Italy reported cases (here we show the reported daily cases, the seven-day moving average of the cases, and the DFT of these cases) we are beginning to see some interesting components whose frequencies are near or near multiples of the Sun’s declination frequency. </p>
         </h>
         <div style = {{height:500}}>
