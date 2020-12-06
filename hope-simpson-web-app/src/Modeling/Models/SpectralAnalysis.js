@@ -27,7 +27,7 @@ function SpectralAnalysis() {
             <h2>COVID-19 Data Spectral Analysis</h2>
             <p className="lead">
                 To observe the frequency spectrum of COVID-19 cases, different latitudes are selected and compared with each other.
-                In the Fourier-based Analysis, we are using the DFT(Discrete Fourier Transform) calculated using FFT(<a href="https://en.wikipedia.org/wiki/Fast_Fourier_transform">Fast Fourier Transform</a>) to transform the sequence of confirmed cases to the frequency spectrum.
+                In the Fourier-based Analysis, we are using the DFT(Discrete Fourier Transform) calculated using FFT(<a href="https://cnx.org/contents/gua6b7go@22.1:gGcNzVsy@10/Introduction-Fast-Fourier-Transforms">Fast Fourier Transform</a>) to transform the sequence of confirmed cases to the frequency spectrum.
                 To facilitate this analysis, some specific steps were taken:
                 <ul>
                     <li>To remove some of the noisy variation found in daily cases reported, the confirmed cases are filtered using a seven-day average.</li>
