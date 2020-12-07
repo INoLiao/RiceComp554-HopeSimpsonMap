@@ -1,7 +1,54 @@
 import React, { Component } from 'react';
 import * as d3 from 'd3';
 
+class LoginForm extends React.Component {
 
+    constructor(props){
+	super(props);
+	this.state = {
+	    years: 4,
+	    beta: 0.05,
+	    alpha: 0.015,
+	    ro: 0.05,
+	    etha: 0.02
+	};
+    }
+
+    handleChangeYears = event => {
+	this.setState({ years: event.target.value });
+    };
+
+    handleChangeBeta = event => {
+	this.setState({ beta: event.target.value });
+    };
+
+    render() {
+	return (
+	    <React.Fragment>
+		<form>
+		    <label htmlFor="years">Number of years</label>
+		    <input
+			type="number"
+			name="years"
+			value={this.state.years}
+			onChange={this.handleChangeYears}
+		    />
+		    <label htmlFor="beta">Beta</label>
+		    <input
+			type="range"
+			id="beta"
+			name="beta"
+			min="0"
+			max="0.4"
+			step="0.01"
+			value={this.state.beta}
+			onChange={this.handleChangeBeta}
+		    />
+		</form>
+	    </React.Fragment>
+	);
+    }
+}
 
 //function InteractiveModel() {
 class InteractiveModel extends Component {
@@ -166,8 +213,9 @@ class InteractiveModel extends Component {
 	};
 
 	const data = this.generateData(parameters, initialValues);
-
 	this.plotLine(data);
+
+
     }
     
     render() {
@@ -179,6 +227,10 @@ class InteractiveModel extends Component {
 		<div ref={this.myChart}></div>
 		<div>
 		    <h4>Control the model parameters below:</h4>
+
+
+		    <LoginForm />
+
 		    
 		</div>
 		
