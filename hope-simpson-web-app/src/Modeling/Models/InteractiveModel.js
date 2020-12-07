@@ -100,8 +100,7 @@ class InteractiveModel extends Component {
 	var g = svg.append("g")
             .attr("transform",
 		  "translate(" + margin.left + "," + margin.top + ")");
-	var path = g.append("path")
-	    .attr("class", "chart-line");
+	
 	var xAxisG = g.append("g")
 	    .attr("class", "x axis")
 	    .attr("transform", "translate(0, " + innerHeight + ")");
@@ -119,7 +118,9 @@ class InteractiveModel extends Component {
 		  "translate(-" + yAxisLabelOffset + "," + (innerHeight / 2) + ") rotate(-90)")
             .attr("class", "label")
             .text(yAxisLabelText);*/
-
+	var path = g.append("path")
+	    .attr("class", "chart-line");
+	
 	//Prepare function to scale input to pixel values
 	var xScale = d3.scaleTime().range([0, innerWidth]);
 	var yScale = d3.scaleLinear().range([innerHeight, 0]);

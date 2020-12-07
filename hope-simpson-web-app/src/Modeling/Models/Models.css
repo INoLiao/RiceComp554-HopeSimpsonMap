@@ -4,13 +4,13 @@
 
 .chart-line {
 	fill: none;
-	stroke: black;
-	stroke-width: 1px;
+	stroke: blue;
+	stroke-width: 4px;
 }
-
 .axis text {
 	font-family: 'Poiret One', cursive;
 	font-size: 12pt;
+	color: gray;
 }
 .axis .label {
 	font-size: 22pt;
@@ -20,4 +20,6 @@
 	fill: none;
 	stroke: #000;
 	shape-rendering: crispEdges;
+	stroke: lightgray;
+	stroke-width: 1px;
 }
