@@ -21,7 +21,7 @@ class InteractiveModel extends Component {
     generateAlpha(base_alpha, seasonal_factor, total_time) {
 	let alpha = [];
 	for (let j=0; j < total_time - 1; j++) {
-	    let val = base_alpha*(1 + seasonal_factor*Math.sin(j/365*2*Math.PI));
+	    let val = base_alpha*(1 + seasonal_factor*Math.sin(j/365*2*Math.PI + Math.PI));
 	    alpha.push(val);
 	}
 	//console.log(alpha);
@@ -151,15 +151,15 @@ class InteractiveModel extends Component {
     
     displayChart() {
 	var parameters = {
-	    beta: 0.1,
+	    beta: 0.05,
 	    alpha: 0.015,
 	    ro: 0.05,
 	    etha: 0.02
 	};
 
 	const initialValues = {
-	    S: 0.9,
-	    E: 0.09,
+	    S: 0.89,
+	    E: 0.10,
 	    I: 0.01,
 	    R: 0
 	};
