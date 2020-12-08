@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 import * as d3 from 'd3';
 
-class LoginForm extends React.Component {
+const SEIR_IMAGE_PATH = '/assets/seir-model.png';
 
-    constructor(props){
+//function InteractiveModel() {
+class InteractiveModel extends Component {
+    constructor(props) {
 	super(props);
+	this.myChart = React.createRef();
 	this.state = {
 	    years: 4,
 	    beta: 0.05,
-	    alpha: 0.015,
+	    alpha: 0.03,
 	    ro: 0.05,
-	    etha: 0.02
+	    etha: 0.03
 	};
     }
 
@@ -22,40 +25,17 @@ class LoginForm extends React.Component {
 	this.setState({ beta: event.target.value });
     };
 
-    render() {
-	return (
-	    <React.Fragment>
-		<form>
-		    <label htmlFor="years">Number of years</label>
-		    <input
-			type="number"
-			name="years"
-			value={this.state.years}
-			onChange={this.handleChangeYears}
-		    />
-		    <label htmlFor="beta">Beta</label>
-		    <input
-			type="range"
-			id="beta"
-			name="beta"
-			min="0"
-			max="0.4"
-			step="0.01"
-			value={this.state.beta}
-			onChange={this.handleChangeBeta}
-		    />
-		</form>
-	    </React.Fragment>
-	);
-    }
-}
+    handleChangeAlpha = event => {
+	this.setState({ alpha: event.target.value });
+    };
 
-//function InteractiveModel() {
-class InteractiveModel extends Component {
-    constructor(props) {
-	super(props);
-	this.myChart = React.createRef();
-    }
+    handleChangeRo = event => {
+	this.setState({ ro: event.target.value });
+    };
+
+    handleChangeEtha = event => {
+	this.setState({ etha: event.target.value });
+    };
 
     componentDidMount() {
 	this.displayChart();
@@ -76,7 +56,7 @@ class InteractiveModel extends Component {
     }
     
     generateData(param, initialValues) {
-	const total_time = 1500;
+	const total_time = this.state.years*365;
 	let current_date = new Date('2020-02-02');
 
 	const seasonal_factor = 0.75;
@@ -127,9 +107,12 @@ class InteractiveModel extends Component {
     }
 
     plotLine(data) {
+	//First, delete any previous svg elements
+	d3.select("svg").remove();
+	
 	//Define general dimension parameters
 	var outerWidth = 800;
-	var outerHeight = 550;
+	var outerHeight = 450;
 	var margin = { left: 70, top: 25, right: 25, bottom: 60 };
 	var innerWidth  = outerWidth  - margin.left - margin.right;
 	var innerHeight = outerHeight - margin.top  - margin.bottom;
@@ -199,10 +182,10 @@ class InteractiveModel extends Component {
     
     displayChart() {
 	var parameters = {
-	    beta: 0.05,
-	    alpha: 0.015,
-	    ro: 0.05,
-	    etha: 0.02
+	    beta: this.state.beta,
+	    alpha: this.state.alpha,
+	    ro: this.state.ro,
+	    etha: this.state.etha
 	};
 
 	const initialValues = {
@@ -214,8 +197,6 @@ class InteractiveModel extends Component {
 
 	const data = this.generateData(parameters, initialValues);
 	this.plotLine(data);
-
-
     }
     
     render() {
@@ -224,13 +205,83 @@ class InteractiveModel extends Component {
 		<div>
 		    <h3>Ratio of Infected People Over Time</h3>
 		</div>
+
 		<div ref={this.myChart}></div>
-		<div>
+
+		<div id="parameters-outer-box">
 		    <h4>Control the model parameters below:</h4>
 
+		    <div id="parameters-control-box">
+			<React.Fragment>
+			    <form>
+				<label htmlFor="years">Number of years:</label>
+				<input
+				    type="number"
+				    name="years"
+				    class="form-input-number"
+				    value={this.state.years}
+				    onChange={this.handleChangeYears}
+				/>
+				
+				<p></p>
+				<input
+				    type="range"
+				    id="beta"
+				    name="beta"
+				    class="form-input-slider"
+				    min="0"
+				    max="0.2"
+				    step="0.00025"
+				    value={this.state.beta}
+				    onChange={this.handleChangeBeta}
+				/>
+				<label htmlFor="beta">Beta: {this.state.beta}</label>
 
-		    <LoginForm />
+				<input
+				    type="range"
+				    id="alpha"
+				    name="alpha"
+				    class="form-input-slider"
+				    min="0"
+				    max="0.1"
+				    step="0.001"
+				    value={this.state.alpha}
+				    onChange={this.handleChangeAlpha}
+				/>
+				<label htmlFor="alpha">Alpha: {this.state.alpha}</label>
 
+				<input
+				    type="range"
+				    id="ro"
+				    name="ro"
+				    class="form-input-slider"
+				    min="0"
+				    max="0.1"
+				    step="0.001"
+				    value={this.state.ro}
+				    onChange={this.handleChangeRo}
+				/>
+				<label htmlFor="ro">Rho: {this.state.ro}</label>
+				
+				<input
+				    type="range"
+				    id="etha"
+				    name="etha"
+				    class="form-input-slider"
+				    min="0"
+				    max="0.1"
+				    step="0.001"
+				    value={this.state.etha}
+				    onChange={this.handleChangeEtha}
+				/>
+				<label htmlFor="etha">Eta: {this.state.etha}</label>
+				
+			    </form>
+			</React.Fragment>
+		    </div>
+		    <div id="parameters-control-image">
+			<img width="500px" src={ SEIR_IMAGE_PATH } alt="" className="img-SEIR-model"/>
+		    </div>
 		    
 		</div>
 		
