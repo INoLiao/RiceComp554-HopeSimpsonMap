@@ -12,7 +12,7 @@ function Home() {
       <h1 className="text-center">Exploring COVID-19 Cases Around the World</h1>
       <h2 className="text-center">Modern Tools Applied to a 90’s Concept</h2>
       <hr/>
-      <p className="lead">A very cordial welcome to the Hope-Simpson project by a group of students from the fall 2020 class of COMP/ELEC 425/554! We created a platform based on modern databases, visualization, web design, virtual machines, signal processing, and data analysis. We applied this platform to analyzing COVID-19 data based on work from a past study where a general practitioner, Robert Edgar Hope-Simpson, studied the spread of the influenza virus. We hope you find our website compelling and insightful!</p>
+      <p className="lead">A very cordial welcome to the Hope-Simpson project started by a group of students from the fall 2020 class of COMP/ELEC 425/554! We created a platform based on modern databases, visualization, web design, virtual machines, signal processing, and data analysis. We applied this platform to analyzing COVID-19 data based on work from a past study where a general practitioner, Robert Edgar Hope-Simpson, studied the spread of the influenza virus. We hope you find our website compelling and insightful!</p>
       <p className="lead">On our home page, you can begin to explore COVID-19 cases around the world. The histogram displays confirmed cases in weekly increments based on the locations you selected.</p>
       <div style={{ height: 1050 }}>
         <TableauDashboard
