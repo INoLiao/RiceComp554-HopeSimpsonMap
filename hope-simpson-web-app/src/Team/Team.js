@@ -3,7 +3,7 @@ import './Team.css';
 import Profile from "./Profile";
 import profiles from "./ProfileDatabase";
 
-const RICE_IMAGE_PATH = '/assets/rice2.jpg';
+const RICE_IMAGE_PATH = '/assets/rice.jpg';
 
 function Team() {
 
