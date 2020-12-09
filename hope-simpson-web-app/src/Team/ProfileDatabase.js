@@ -34,9 +34,9 @@ const profiles = [
   {
     name: 'Howard Wang',
     avatar: '/assets/howard.jpg',
-    title: '',
+    title: 'Master of Computer Science',
     organization: 'Rice University',
-    roles: [],
+    roles: ['Web Dev'],
     link: '',
   },
   {
