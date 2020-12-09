@@ -33,7 +33,7 @@ const profiles = [
   },
   {
     name: 'Howard Wang',
-    avatar: '/assets/defaultAvatar.png',
+    avatar: '/assets/howard.jpg',
     title: '',
     organization: 'Rice University',
     roles: [],
