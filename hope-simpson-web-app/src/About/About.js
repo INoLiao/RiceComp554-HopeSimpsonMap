@@ -78,7 +78,7 @@ function About() {
   return (
     <div className="about-container container">
       <div className="about-kanban rounded">
-        <div className="display-4">About the Hope-Simpson Concept</div>
+        <h1 className="text-center">About the Hope-Simpson Concept</h1>
         <p className="lead"></p>
       </div>
 	{Slideshow()}
