@@ -97,10 +97,10 @@ const profiles = [
   },
   {
     name: 'Wenlong Yan',
-    avatar: '/assets/defaultAvatar.png',
-    title: '',
+    avatar: '/assets/wenlong-yan.jpg',
+    title: 'Master of Computer Science',
     organization: 'Rice University',
-    roles: [],
+    roles: ['Web Dev'],
     link: '',
   },
 ];
