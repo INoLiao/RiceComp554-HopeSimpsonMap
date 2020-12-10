@@ -1,6 +1,5 @@
-.about-kanban {
-    background: #edf2fa;
-    padding: 2em 1em 2em 2em;
+.about-container {
+  margin-top: 1em;
 }
 
 .each-slide > div {

@@ -22,66 +22,63 @@ const properties = {
   infinite: true,
   indicators: true,
   arrows: true
-}
-
+};
 
 const Slideshow = () => {
-    return (
-      <div>
-        <Slide easing="ease" {...properties}>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-            </div>
+  return (
+    <div>
+      <Slide easing="ease" {...properties}>
+        <div className="each-slide">
+          <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
           </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[1]})`}}> 
-            </div>
+        </div>
+        <div className="each-slide">
+          <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
           </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-            </div>
+        </div>
+        <div className="each-slide">
+          <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
           </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[3]})`}}>
-            </div>
+        </div>
+        <div className="each-slide">
+          <div style={{'backgroundImage': `url(${slideImages[3]})`}}>
           </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[4]})`}}>
-            </div>
+        </div>
+        <div className="each-slide">
+          <div style={{'backgroundImage': `url(${slideImages[4]})`}}>
           </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[5]})`}}>
-            </div>
+        </div>
+        <div className="each-slide">
+          <div style={{'backgroundImage': `url(${slideImages[5]})`}}>
           </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[6]})`}}>
-            </div>
+        </div>
+        <div className="each-slide">
+          <div style={{'backgroundImage': `url(${slideImages[6]})`}}>
           </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[7]})`}}>
-            </div>
+        </div>
+        <div className="each-slide">
+          <div style={{'backgroundImage': `url(${slideImages[7]})`}}>
           </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[8]})`}}>
-            </div>
+        </div>
+        <div className="each-slide">
+          <div style={{'backgroundImage': `url(${slideImages[8]})`}}>
           </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[9]})`}}>
-            </div>
+        </div>
+        <div className="each-slide">
+          <div style={{'backgroundImage': `url(${slideImages[9]})`}}>
           </div>
-        </Slide>
-      </div>
-    )
+        </div>
+      </Slide>
+    </div>
+  )
 };
 
 function About() {
   return (
     <div className="about-container container">
-      <div className="about-kanban rounded">
-        <h1 className="text-center">About the Hope-Simpson Concept</h1>
-        <p className="lead"></p>
-      </div>
-	{Slideshow()}
+      <h1 className="text-center">About the Hope-Simpson Concept</h1>
+      <hr/>
+      { Slideshow() }
     </div>
   );
 }

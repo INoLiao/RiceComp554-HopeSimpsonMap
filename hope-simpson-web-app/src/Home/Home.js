@@ -27,7 +27,7 @@ function Home() {
         <li className="lead"><strong>GDS Map:</strong> Using Google Data Studio, you can dive into a detailed exploration of the data by date, country, latitude, and longitude. We can see another view of the four-zones concept and the longitudinal slice of the Americas.</li>
         <li className="lead"><strong>Modeling:</strong> See early work of a compartmental network model of the virus spread and a Fourier-based analysis of the reported cases across the world.</li>
       </ul>
-      <p className="lead">Finally, our site is designed to let you download the data so you can do your own investigation.</p>
+      <p className="lead">Finally, our site is constantly redesigned so it might be a bit unresponsive from time to time.  But one of our great design features is that you can download any of the data yourself to continue your own exploration.</p>
       <p className="lead">Stay safe!</p>
     </div>
   );
