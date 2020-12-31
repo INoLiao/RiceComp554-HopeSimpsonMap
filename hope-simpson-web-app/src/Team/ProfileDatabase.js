@@ -32,7 +32,7 @@ const profiles = [
     link: 'https://www.csie.ntu.edu.tw/~cyshih',
   },
   {
-    name: 'Howard Wang',
+    name: 'Howard Lan',
     avatar: '/assets/howard.jpeg',
     title: 'Master of Computer Science',
     organization: 'Rice University',
