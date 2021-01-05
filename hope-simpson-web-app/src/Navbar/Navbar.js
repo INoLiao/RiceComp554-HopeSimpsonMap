@@ -21,13 +21,13 @@ function Navbar() {
                   <NavLink exact className="nav-link" to="/about">About</NavLink>
                 </li>
                 <li className="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                  <NavLink exact className="nav-link" to="/map/tableau">Tableau Map</NavLink>
+                  <NavLink className="nav-link" to="/map/tableau">Tableau Map</NavLink>
                 </li>
                 <li className="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <NavLink exact className="nav-link" to="/map/gds">GDS Map</NavLink>
                 </li>
                 <li className="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                  <NavLink exact className="nav-link" to="/modeling">Modeling</NavLink>
+                  <NavLink className="nav-link" to="/modeling">Modeling</NavLink>
                 </li>
                 <li className="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <NavLink exact className="nav-link" to="/team">Team</NavLink>
