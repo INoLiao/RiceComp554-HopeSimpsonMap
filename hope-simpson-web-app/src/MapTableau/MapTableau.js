@@ -11,6 +11,9 @@ function MapTableau () {
     <div className="map-container container align-items-center">
       <div className="map-tableau-navbar">
         <ul className="nav nav-tabs">
+          <li className="nav-item disabled">
+            <a className="nav-link disabled" href="/#">COVID-19 Map <span style={{fontSize: "xx-small"}}>Powered by Tableau</span></a>
+          </li>
           {
             dashboards && dashboards.map((dashboard, index) =>
               <li className="nav-item" key={ index }>
