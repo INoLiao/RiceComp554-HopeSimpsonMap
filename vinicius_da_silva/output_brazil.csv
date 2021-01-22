@@ -8236,15 +8236,15 @@ Pernambuco,Brazil,-8.05,-34.9,12/31/20,1882
 Piaui,Brazil,-5.095,-42.8042,12/31/20,507
 Parana,Brazil,-25.417,-49.25,12/31/20,3939
 Rio de Janeiro,Brazil,-22.911,-43.206,12/31/20,6275
-Rio Grande do Norte,Brazil,-5.783,-35.2,12/31/20,0
+Rio Grande do Norte,Brazil,-5.783,-35.2,12/31/20,271
 Rondonia,Brazil,-8.762,-63.904,12/31/20,694
-Roraima,Brazil,2.819,-60.671,12/31/20,115
+Roraima,Brazil,2.819,-60.671,12/31/20,21
 Rio Grande do Sul,Brazil,-30.033,-51.23,12/31/20,5462
 Santa Catarina,Brazil,-27.612,-48.485,12/31/20,3514
 Sergipe,Brazil,-10.917,-37.05,12/31/20,770
 Sao Paulo,Brazil,-23.55,-46.633,12/31/20,10219
 Tocantins,Brazil,-10.184,-48.334,12/31/20,178
-Brazil,Brazil,-14.2,-51.9,12/31/20,54292
+Brazil,Brazil,-14.2,-51.9,12/31/20,54469
 Acre,Brazil,-9.975,-67.81,01/01/21,69
 Alagoas,Brazil,-9.666,-35.735,01/01/21,273
 Amazonas,Brazil,-3.1,-60.017,01/01/21,561
@@ -8264,15 +8264,15 @@ Pernambuco,Brazil,-8.05,-34.9,01/01/21,827
 Piaui,Brazil,-5.095,-42.8042,01/01/21,31
 Parana,Brazil,-25.417,-49.25,01/01/21,1757
 Rio de Janeiro,Brazil,-22.911,-43.206,01/01/21,742
-Rio Grande do Norte,Brazil,-5.783,-35.2,01/01/21,610
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/01/21,339
 Rondonia,Brazil,-8.762,-63.904,01/01/21,270
-Roraima,Brazil,2.819,-60.671,01/01/21,23
+Roraima,Brazil,2.819,-60.671,01/01/21,148
 Rio Grande do Sul,Brazil,-30.033,-51.23,01/01/21,2238
 Santa Catarina,Brazil,-27.612,-48.485,01/01/21,1864
 Sergipe,Brazil,-10.917,-37.05,01/01/21,1039
 Sao Paulo,Brazil,-23.55,-46.633,01/01/21,3894
 Tocantins,Brazil,-10.184,-48.334,01/01/21,56
-Brazil,Brazil,-14.2,-51.9,01/01/21,23085
+Brazil,Brazil,-14.2,-51.9,01/01/21,22939
 Acre,Brazil,-9.975,-67.81,01/02/21,252
 Alagoas,Brazil,-9.666,-35.735,01/02/21,270
 Amazonas,Brazil,-3.1,-60.017,01/02/21,293
@@ -8294,13 +8294,13 @@ Parana,Brazil,-25.417,-49.25,01/02/21,1292
 Rio de Janeiro,Brazil,-22.911,-43.206,01/02/21,214
 Rio Grande do Norte,Brazil,-5.783,-35.2,01/02/21,0
 Rondonia,Brazil,-8.762,-63.904,01/02/21,434
-Roraima,Brazil,2.819,-60.671,01/02/21,48
+Roraima,Brazil,2.819,-60.671,01/02/21,17
 Rio Grande do Sul,Brazil,-30.033,-51.23,01/02/21,1008
 Santa Catarina,Brazil,-27.612,-48.485,01/02/21,2077
 Sergipe,Brazil,-10.917,-37.05,01/02/21,372
 Sao Paulo,Brazil,-23.55,-46.633,01/02/21,1762
 Tocantins,Brazil,-10.184,-48.334,01/02/21,111
-Brazil,Brazil,-14.2,-51.9,01/02/21,15384
+Brazil,Brazil,-14.2,-51.9,01/02/21,15353
 Acre,Brazil,-9.975,-67.81,01/03/21,105
 Alagoas,Brazil,-9.666,-35.735,01/03/21,353
 Amazonas,Brazil,-3.1,-60.017,01/03/21,546
@@ -8340,7 +8340,7 @@ Espirito Santo,Brazil,-20.289,-40.308,01/04/21,1466
 Goias,Brazil,-16.667,-49.25,01/04/21,1613
 Maranhao,Brazil,-2.528,-44.304,01/04/21,76
 Minas Gerais,Brazil,-19.917,-43.933,01/04/21,1432
-Mato Grosso do Sul,Brazil,-20.484,-54.615,01/04/21,0
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/04/21,1320
 Mato Grosso,Brazil,-15.596,-56.096,01/04/21,1542
 Para,Brazil,-1.456,-48.504,01/04/21,1215
 Paraiba,Brazil,-7.083,-34.833,01/04/21,135
@@ -8348,12 +8348,488 @@ Pernambuco,Brazil,-8.05,-34.9,01/04/21,305
 Piaui,Brazil,-5.095,-42.8042,01/04/21,549
 Parana,Brazil,-25.417,-49.25,01/04/21,1726
 Rio de Janeiro,Brazil,-22.911,-43.206,01/04/21,3606
-Rio Grande do Norte,Brazil,-5.783,-35.2,01/04/21,0
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/04/21,841
 Rondonia,Brazil,-8.762,-63.904,01/04/21,291
 Roraima,Brazil,2.819,-60.671,01/04/21,82
 Rio Grande do Sul,Brazil,-30.033,-51.23,01/04/21,569
 Santa Catarina,Brazil,-27.612,-48.485,01/04/21,1565
 Sergipe,Brazil,-10.917,-37.05,01/04/21,951
 Sao Paulo,Brazil,-23.55,-46.633,01/04/21,2248
-Tocantins,Brazil,-10.184,-48.334,01/04/21,0
-Brazil,Brazil,-14.2,-51.9,01/04/21,22508
+Tocantins,Brazil,-10.184,-48.334,01/04/21,370
+Brazil,Brazil,-14.2,-51.9,01/04/21,25039
+Acre,Brazil,-9.975,-67.81,01/05/21,53
+Alagoas,Brazil,-9.666,-35.735,01/05/21,378
+Amazonas,Brazil,-3.1,-60.017,01/05/21,1928
+Amapa,Brazil,0.034,-51.066,01/05/21,321
+Bahia,Brazil,-12.975,-38.477,01/05/21,3077
+Ceara,Brazil,-3.728,-38.528,01/05/21,2068
+Distrito Federal,Brazil,-15.794,-47.883,01/05/21,1565
+Espirito Santo,Brazil,-20.289,-40.308,01/05/21,2496
+Goias,Brazil,-16.667,-49.25,01/05/21,1057
+Maranhao,Brazil,-2.528,-44.304,01/05/21,162
+Minas Gerais,Brazil,-19.917,-43.933,01/05/21,4588
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/05/21,1582
+Mato Grosso,Brazil,-15.596,-56.096,01/05/21,796
+Para,Brazil,-1.456,-48.504,01/05/21,1313
+Paraiba,Brazil,-7.083,-34.833,01/05/21,366
+Pernambuco,Brazil,-8.05,-34.9,01/05/21,1491
+Piaui,Brazil,-5.095,-42.8042,01/05/21,657
+Parana,Brazil,-25.417,-49.25,01/05/21,4748
+Rio de Janeiro,Brazil,-22.911,-43.206,01/05/21,4262
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/05/21,819
+Rondonia,Brazil,-8.762,-63.904,01/05/21,657
+Roraima,Brazil,2.819,-60.671,01/05/21,151
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/05/21,5283
+Santa Catarina,Brazil,-27.612,-48.485,01/05/21,3875
+Sergipe,Brazil,-10.917,-37.05,01/05/21,1143
+Sao Paulo,Brazil,-23.55,-46.633,01/05/21,12881
+Tocantins,Brazil,-10.184,-48.334,01/05/21,366
+Brazil,Brazil,-14.2,-51.9,01/05/21,58083
+Acre,Brazil,-9.975,-67.81,01/06/21,208
+Alagoas,Brazil,-9.666,-35.735,01/06/21,471
+Amazonas,Brazil,-3.1,-60.017,01/06/21,2192
+Amapa,Brazil,0.034,-51.066,01/06/21,373
+Bahia,Brazil,-12.975,-38.477,01/06/21,3038
+Ceara,Brazil,-3.728,-38.528,01/06/21,1269
+Distrito Federal,Brazil,-15.794,-47.883,01/06/21,0
+Espirito Santo,Brazil,-20.289,-40.308,01/06/21,1684
+Goias,Brazil,-16.667,-49.25,01/06/21,1631
+Maranhao,Brazil,-2.528,-44.304,01/06/21,199
+Minas Gerais,Brazil,-19.917,-43.933,01/06/21,9515
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/06/21,1311
+Mato Grosso,Brazil,-15.596,-56.096,01/06/21,2072
+Para,Brazil,-1.456,-48.504,01/06/21,1222
+Paraiba,Brazil,-7.083,-34.833,01/06/21,1101
+Pernambuco,Brazil,-8.05,-34.9,01/06/21,1604
+Piaui,Brazil,-5.095,-42.8042,01/06/21,527
+Parana,Brazil,-25.417,-49.25,01/06/21,3084
+Rio de Janeiro,Brazil,-22.911,-43.206,01/06/21,4482
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/06/21,604
+Rondonia,Brazil,-8.762,-63.904,01/06/21,957
+Roraima,Brazil,2.819,-60.671,01/06/21,146
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/06/21,4728
+Santa Catarina,Brazil,-27.612,-48.485,01/06/21,4112
+Sergipe,Brazil,-10.917,-37.05,01/06/21,1039
+Sao Paulo,Brazil,-23.55,-46.633,01/06/21,14534
+Tocantins,Brazil,-10.184,-48.334,01/06/21,404
+Brazil,Brazil,-14.2,-51.9,01/06/21,62507
+Acre,Brazil,-9.975,-67.81,01/07/21,100
+Alagoas,Brazil,-9.666,-35.735,01/07/21,398
+Amazonas,Brazil,-3.1,-60.017,01/07/21,1706
+Amapa,Brazil,0.034,-51.066,01/07/21,405
+Bahia,Brazil,-12.975,-38.477,01/07/21,2980
+Ceara,Brazil,-3.728,-38.528,01/07/21,1889
+Distrito Federal,Brazil,-15.794,-47.883,01/07/21,807
+Espirito Santo,Brazil,-20.289,-40.308,01/07/21,1646
+Goias,Brazil,-16.667,-49.25,01/07/21,1808
+Maranhao,Brazil,-2.528,-44.304,01/07/21,187
+Minas Gerais,Brazil,-19.917,-43.933,01/07/21,5450
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/07/21,1186
+Mato Grosso,Brazil,-15.596,-56.096,01/07/21,1086
+Para,Brazil,-1.456,-48.504,01/07/21,1071
+Paraiba,Brazil,-7.083,-34.833,01/07/21,965
+Pernambuco,Brazil,-8.05,-34.9,01/07/21,1511
+Piaui,Brazil,-5.095,-42.8042,01/07/21,613
+Parana,Brazil,-25.417,-49.25,01/07/21,32436
+Rio de Janeiro,Brazil,-22.911,-43.206,01/07/21,4669
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/07/21,1158
+Rondonia,Brazil,-8.762,-63.904,01/07/21,784
+Roraima,Brazil,2.819,-60.671,01/07/21,135
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/07/21,4801
+Santa Catarina,Brazil,-27.612,-48.485,01/07/21,4432
+Sergipe,Brazil,-10.917,-37.05,01/07/21,1227
+Sao Paulo,Brazil,-23.55,-46.633,01/07/21,14073
+Tocantins,Brazil,-10.184,-48.334,01/07/21,446
+Brazil,Brazil,-14.2,-51.9,01/07/21,87969
+Acre,Brazil,-9.975,-67.81,01/08/21,336
+Alagoas,Brazil,-9.666,-35.735,01/08/21,349
+Amazonas,Brazil,-3.1,-60.017,01/08/21,2342
+Amapa,Brazil,0.034,-51.066,01/08/21,470
+Bahia,Brazil,-12.975,-38.477,01/08/21,2777
+Ceara,Brazil,-3.728,-38.528,01/08/21,1686
+Distrito Federal,Brazil,-15.794,-47.883,01/08/21,673
+Espirito Santo,Brazil,-20.289,-40.308,01/08/21,2029
+Goias,Brazil,-16.667,-49.25,01/08/21,1289
+Maranhao,Brazil,-2.528,-44.304,01/08/21,104
+Minas Gerais,Brazil,-19.917,-43.933,01/08/21,7812
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/08/21,1116
+Mato Grosso,Brazil,-15.596,-56.096,01/08/21,1368
+Para,Brazil,-1.456,-48.504,01/08/21,1409
+Paraiba,Brazil,-7.083,-34.833,01/08/21,936
+Pernambuco,Brazil,-8.05,-34.9,01/08/21,1250
+Piaui,Brazil,-5.095,-42.8042,01/08/21,782
+Parana,Brazil,-25.417,-49.25,01/08/21,8330
+Rio de Janeiro,Brazil,-22.911,-43.206,01/08/21,1517
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/08/21,1210
+Rondonia,Brazil,-8.762,-63.904,01/08/21,748
+Roraima,Brazil,2.819,-60.671,01/08/21,179
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/08/21,4779
+Santa Catarina,Brazil,-27.612,-48.485,01/08/21,3880
+Sergipe,Brazil,-10.917,-37.05,01/08/21,1217
+Sao Paulo,Brazil,-23.55,-46.633,01/08/21,13794
+Tocantins,Brazil,-10.184,-48.334,01/08/21,470
+Brazil,Brazil,-14.2,-51.9,01/08/21,62852
+Acre,Brazil,-9.975,-67.81,01/09/21,94
+Alagoas,Brazil,-9.666,-35.735,01/09/21,481
+Amazonas,Brazil,-3.1,-60.017,01/09/21,1856
+Amapa,Brazil,0.034,-51.066,01/09/21,332
+Bahia,Brazil,-12.975,-38.477,01/09/21,2497
+Ceara,Brazil,-3.728,-38.528,01/09/21,790
+Distrito Federal,Brazil,-15.794,-47.883,01/09/21,798
+Espirito Santo,Brazil,-20.289,-40.308,01/09/21,1187
+Goias,Brazil,-16.667,-49.25,01/09/21,314
+Maranhao,Brazil,-2.528,-44.304,01/09/21,170
+Minas Gerais,Brazil,-19.917,-43.933,01/09/21,8399
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/09/21,831
+Mato Grosso,Brazil,-15.596,-56.096,01/09/21,920
+Para,Brazil,-1.456,-48.504,01/09/21,1047
+Paraiba,Brazil,-7.083,-34.833,01/09/21,714
+Pernambuco,Brazil,-8.05,-34.9,01/09/21,1190
+Piaui,Brazil,-5.095,-42.8042,01/09/21,259
+Parana,Brazil,-25.417,-49.25,01/09/21,0
+Rio de Janeiro,Brazil,-22.911,-43.206,01/09/21,5591
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/09/21,0
+Rondonia,Brazil,-8.762,-63.904,01/09/21,681
+Roraima,Brazil,2.819,-60.671,01/09/21,92
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/09/21,3584
+Santa Catarina,Brazil,-27.612,-48.485,01/09/21,3596
+Sergipe,Brazil,-10.917,-37.05,01/09/21,960
+Sao Paulo,Brazil,-23.55,-46.633,01/09/21,11561
+Tocantins,Brazil,-10.184,-48.334,01/09/21,183
+Brazil,Brazil,-14.2,-51.9,01/09/21,48127
+Acre,Brazil,-9.975,-67.81,01/10/21,219
+Alagoas,Brazil,-9.666,-35.735,01/10/21,433
+Amazonas,Brazil,-3.1,-60.017,01/10/21,965
+Amapa,Brazil,0.034,-51.066,01/10/21,226
+Bahia,Brazil,-12.975,-38.477,01/10/21,1649
+Ceara,Brazil,-3.728,-38.528,01/10/21,325
+Distrito Federal,Brazil,-15.794,-47.883,01/10/21,658
+Espirito Santo,Brazil,-20.289,-40.308,01/10/21,1347
+Goias,Brazil,-16.667,-49.25,01/10/21,311
+Maranhao,Brazil,-2.528,-44.304,01/10/21,30
+Minas Gerais,Brazil,-19.917,-43.933,01/10/21,4443
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/10/21,455
+Mato Grosso,Brazil,-15.596,-56.096,01/10/21,240
+Para,Brazil,-1.456,-48.504,01/10/21,624
+Paraiba,Brazil,-7.083,-34.833,01/10/21,515
+Pernambuco,Brazil,-8.05,-34.9,01/10/21,1146
+Piaui,Brazil,-5.095,-42.8042,01/10/21,471
+Parana,Brazil,-25.417,-49.25,01/10/21,1640
+Rio de Janeiro,Brazil,-22.911,-43.206,01/10/21,1061
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/10/21,748
+Rondonia,Brazil,-8.762,-63.904,01/10/21,564
+Roraima,Brazil,2.819,-60.671,01/10/21,53
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/10/21,1979
+Santa Catarina,Brazil,-27.612,-48.485,01/10/21,1772
+Sergipe,Brazil,-10.917,-37.05,01/10/21,1372
+Sao Paulo,Brazil,-23.55,-46.633,01/10/21,5619
+Tocantins,Brazil,-10.184,-48.334,01/10/21,162
+Brazil,Brazil,-14.2,-51.9,01/10/21,29027
+Acre,Brazil,-9.975,-67.81,01/11/21,219
+Alagoas,Brazil,-9.666,-35.735,01/11/21,278
+Amazonas,Brazil,-3.1,-60.017,01/11/21,2151
+Amapa,Brazil,0.034,-51.066,01/11/21,385
+Bahia,Brazil,-12.975,-38.477,01/11/21,915
+Ceara,Brazil,-3.728,-38.528,01/11/21,233
+Distrito Federal,Brazil,-15.794,-47.883,01/11/21,986
+Espirito Santo,Brazil,-20.289,-40.308,01/11/21,2052
+Goias,Brazil,-16.667,-49.25,01/11/21,2291
+Maranhao,Brazil,-2.528,-44.304,01/11/21,105
+Minas Gerais,Brazil,-19.917,-43.933,01/11/21,2696
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/11/21,997
+Mato Grosso,Brazil,-15.596,-56.096,01/11/21,1747
+Para,Brazil,-1.456,-48.504,01/11/21,1387
+Paraiba,Brazil,-7.083,-34.833,01/11/21,523
+Pernambuco,Brazil,-8.05,-34.9,01/11/21,719
+Piaui,Brazil,-5.095,-42.8042,01/11/21,523
+Parana,Brazil,-25.417,-49.25,01/11/21,1670
+Rio de Janeiro,Brazil,-22.911,-43.206,01/11/21,634
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/11/21,834
+Rondonia,Brazil,-8.762,-63.904,01/11/21,930
+Roraima,Brazil,2.819,-60.671,01/11/21,103
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/11/21,1582
+Santa Catarina,Brazil,-27.612,-48.485,01/11/21,1901
+Sergipe,Brazil,-10.917,-37.05,01/11/21,1242
+Sao Paulo,Brazil,-23.55,-46.633,01/11/21,3010
+Tocantins,Brazil,-10.184,-48.334,01/11/21,634
+Brazil,Brazil,-14.2,-51.9,01/11/21,30747
+Acre,Brazil,-9.975,-67.81,01/12/21,86
+Alagoas,Brazil,-9.666,-35.735,01/12/21,499
+Amazonas,Brazil,-3.1,-60.017,01/12/21,1958
+Amapa,Brazil,0.034,-51.066,01/12/21,402
+Bahia,Brazil,-12.975,-38.477,01/12/21,2105
+Ceara,Brazil,-3.728,-38.528,01/12/21,2283
+Distrito Federal,Brazil,-15.794,-47.883,01/12/21,1000
+Espirito Santo,Brazil,-20.289,-40.308,01/12/21,1895
+Goias,Brazil,-16.667,-49.25,01/12/21,2180
+Maranhao,Brazil,-2.528,-44.304,01/12/21,264
+Minas Gerais,Brazil,-19.917,-43.933,01/12/21,7826
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/12/21,1095
+Mato Grosso,Brazil,-15.596,-56.096,01/12/21,1247
+Para,Brazil,-1.456,-48.504,01/12/21,1500
+Paraiba,Brazil,-7.083,-34.833,01/12/21,219
+Pernambuco,Brazil,-8.05,-34.9,01/12/21,1482
+Piaui,Brazil,-5.095,-42.8042,01/12/21,835
+Parana,Brazil,-25.417,-49.25,01/12/21,11400
+Rio de Janeiro,Brazil,-22.911,-43.206,01/12/21,3589
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/12/21,212
+Rondonia,Brazil,-8.762,-63.904,01/12/21,1280
+Roraima,Brazil,2.819,-60.671,01/12/21,198
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/12/21,3695
+Santa Catarina,Brazil,-27.612,-48.485,01/12/21,3546
+Sergipe,Brazil,-10.917,-37.05,01/12/21,440
+Sao Paulo,Brazil,-23.55,-46.633,01/12/21,12702
+Tocantins,Brazil,-10.184,-48.334,01/12/21,486
+Brazil,Brazil,-14.2,-51.9,01/12/21,64424
+Acre,Brazil,-9.975,-67.81,01/13/21,353
+Alagoas,Brazil,-9.666,-35.735,01/13/21,401
+Amazonas,Brazil,-3.1,-60.017,01/13/21,1474
+Amapa,Brazil,0.034,-51.066,01/13/21,360
+Bahia,Brazil,-12.975,-38.477,01/13/21,3094
+Ceara,Brazil,-3.728,-38.528,01/13/21,1394
+Distrito Federal,Brazil,-15.794,-47.883,01/13/21,659
+Espirito Santo,Brazil,-20.289,-40.308,01/13/21,1772
+Goias,Brazil,-16.667,-49.25,01/13/21,2116
+Maranhao,Brazil,-2.528,-44.304,01/13/21,260
+Minas Gerais,Brazil,-19.917,-43.933,01/13/21,8319
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/13/21,1106
+Mato Grosso,Brazil,-15.596,-56.096,01/13/21,1760
+Para,Brazil,-1.456,-48.504,01/13/21,1017
+Paraiba,Brazil,-7.083,-34.833,01/13/21,681
+Pernambuco,Brazil,-8.05,-34.9,01/13/21,1803
+Piaui,Brazil,-5.095,-42.8042,01/13/21,819
+Parana,Brazil,-25.417,-49.25,01/13/21,494
+Rio de Janeiro,Brazil,-22.911,-43.206,01/13/21,4287
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/13/21,1366
+Rondonia,Brazil,-8.762,-63.904,01/13/21,939
+Roraima,Brazil,2.819,-60.671,01/13/21,260
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/13/21,5223
+Santa Catarina,Brazil,-27.612,-48.485,01/13/21,3365
+Sergipe,Brazil,-10.917,-37.05,01/13/21,666
+Sao Paulo,Brazil,-23.55,-46.633,01/13/21,15275
+Tocantins,Brazil,-10.184,-48.334,01/13/21,564
+Brazil,Brazil,-14.2,-51.9,01/13/21,59827
+Acre,Brazil,-9.975,-67.81,01/14/21,283
+Alagoas,Brazil,-9.666,-35.735,01/14/21,392
+Amazonas,Brazil,-3.1,-60.017,01/14/21,3816
+Amapa,Brazil,0.034,-51.066,01/14/21,373
+Bahia,Brazil,-12.975,-38.477,01/14/21,4113
+Ceara,Brazil,-3.728,-38.528,01/14/21,1659
+Distrito Federal,Brazil,-15.794,-47.883,01/14/21,766
+Espirito Santo,Brazil,-20.289,-40.308,01/14/21,1818
+Goias,Brazil,-16.667,-49.25,01/14/21,2066
+Maranhao,Brazil,-2.528,-44.304,01/14/21,265
+Minas Gerais,Brazil,-19.917,-43.933,01/14/21,8694
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/14/21,1166
+Mato Grosso,Brazil,-15.596,-56.096,01/14/21,1875
+Para,Brazil,-1.456,-48.504,01/14/21,1491
+Paraiba,Brazil,-7.083,-34.833,01/14/21,1028
+Pernambuco,Brazil,-8.05,-34.9,01/14/21,1412
+Piaui,Brazil,-5.095,-42.8042,01/14/21,688
+Parana,Brazil,-25.417,-49.25,01/14/21,5811
+Rio de Janeiro,Brazil,-22.911,-43.206,01/14/21,4211
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/14/21,974
+Rondonia,Brazil,-8.762,-63.904,01/14/21,1215
+Roraima,Brazil,2.819,-60.671,01/14/21,129
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/14/21,4605
+Santa Catarina,Brazil,-27.612,-48.485,01/14/21,3949
+Sergipe,Brazil,-10.917,-37.05,01/14/21,1262
+Sao Paulo,Brazil,-23.55,-46.633,01/14/21,13710
+Tocantins,Brazil,-10.184,-48.334,01/14/21,558
+Brazil,Brazil,-14.2,-51.9,01/14/21,68329
+Acre,Brazil,-9.975,-67.81,01/15/21,88
+Alagoas,Brazil,-9.666,-35.735,01/15/21,460
+Amazonas,Brazil,-3.1,-60.017,01/15/21,3151
+Amapa,Brazil,0.034,-51.066,01/15/21,402
+Bahia,Brazil,-12.975,-38.477,01/15/21,5471
+Ceara,Brazil,-3.728,-38.528,01/15/21,1160
+Distrito Federal,Brazil,-15.794,-47.883,01/15/21,706
+Espirito Santo,Brazil,-20.289,-40.308,01/15/21,1990
+Goias,Brazil,-16.667,-49.25,01/15/21,1691
+Maranhao,Brazil,-2.528,-44.304,01/15/21,317
+Minas Gerais,Brazil,-19.917,-43.933,01/15/21,9120
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/15/21,1316
+Mato Grosso,Brazil,-15.596,-56.096,01/15/21,1406
+Para,Brazil,-1.456,-48.504,01/15/21,1416
+Paraiba,Brazil,-7.083,-34.833,01/15/21,770
+Pernambuco,Brazil,-8.05,-34.9,01/15/21,1702
+Piaui,Brazil,-5.095,-42.8042,01/15/21,672
+Parana,Brazil,-25.417,-49.25,01/15/21,4851
+Rio de Janeiro,Brazil,-22.911,-43.206,01/15/21,3396
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/15/21,1734
+Rondonia,Brazil,-8.762,-63.904,01/15/21,1380
+Roraima,Brazil,2.819,-60.671,01/15/21,277
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/15/21,5207
+Santa Catarina,Brazil,-27.612,-48.485,01/15/21,3698
+Sergipe,Brazil,-10.917,-37.05,01/15/21,1145
+Sao Paulo,Brazil,-23.55,-46.633,01/15/21,15016
+Tocantins,Brazil,-10.184,-48.334,01/15/21,555
+Brazil,Brazil,-14.2,-51.9,01/15/21,69097
+Acre,Brazil,-9.975,-67.81,01/16/21,465
+Alagoas,Brazil,-9.666,-35.735,01/16/21,396
+Amazonas,Brazil,-3.1,-60.017,01/16/21,2856
+Amapa,Brazil,0.034,-51.066,01/16/21,389
+Bahia,Brazil,-12.975,-38.477,01/16/21,5832
+Ceara,Brazil,-3.728,-38.528,01/16/21,2248
+Distrito Federal,Brazil,-15.794,-47.883,01/16/21,828
+Espirito Santo,Brazil,-20.289,-40.308,01/16/21,1478
+Goias,Brazil,-16.667,-49.25,01/16/21,241
+Maranhao,Brazil,-2.528,-44.304,01/16/21,178
+Minas Gerais,Brazil,-19.917,-43.933,01/16/21,7831
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/16/21,767
+Mato Grosso,Brazil,-15.596,-56.096,01/16/21,1050
+Para,Brazil,-1.456,-48.504,01/16/21,590
+Paraiba,Brazil,-7.083,-34.833,01/16/21,838
+Pernambuco,Brazil,-8.05,-34.9,01/16/21,1450
+Piaui,Brazil,-5.095,-42.8042,01/16/21,351
+Parana,Brazil,-25.417,-49.25,01/16/21,3531
+Rio de Janeiro,Brazil,-22.911,-43.206,01/16/21,4067
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/16/21,15
+Rondonia,Brazil,-8.762,-63.904,01/16/21,841
+Roraima,Brazil,2.819,-60.671,01/16/21,196
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/16/21,4229
+Santa Catarina,Brazil,-27.612,-48.485,01/16/21,3306
+Sergipe,Brazil,-10.917,-37.05,01/16/21,366
+Sao Paulo,Brazil,-23.55,-46.633,01/16/21,13774
+Tocantins,Brazil,-10.184,-48.334,01/16/21,332
+Brazil,Brazil,-14.2,-51.9,01/16/21,58445
+Acre,Brazil,-9.975,-67.81,01/17/21,146
+Alagoas,Brazil,-9.666,-35.735,01/17/21,475
+Amazonas,Brazil,-3.1,-60.017,01/17/21,1277
+Amapa,Brazil,0.034,-51.066,01/17/21,204
+Bahia,Brazil,-12.975,-38.477,01/17/21,3401
+Ceara,Brazil,-3.728,-38.528,01/17/21,0
+Distrito Federal,Brazil,-15.794,-47.883,01/17/21,471
+Espirito Santo,Brazil,-20.289,-40.308,01/17/21,995
+Goias,Brazil,-16.667,-49.25,01/17/21,135
+Maranhao,Brazil,-2.528,-44.304,01/17/21,89
+Minas Gerais,Brazil,-19.917,-43.933,01/17/21,6812
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/17/21,446
+Mato Grosso,Brazil,-15.596,-56.096,01/17/21,562
+Para,Brazil,-1.456,-48.504,01/17/21,290
+Paraiba,Brazil,-7.083,-34.833,01/17/21,1008
+Pernambuco,Brazil,-8.05,-34.9,01/17/21,482
+Piaui,Brazil,-5.095,-42.8042,01/17/21,222
+Parana,Brazil,-25.417,-49.25,01/17/21,1563
+Rio de Janeiro,Brazil,-22.911,-43.206,01/17/21,947
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/17/21,1025
+Rondonia,Brazil,-8.762,-63.904,01/17/21,883
+Roraima,Brazil,2.819,-60.671,01/17/21,117
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/17/21,1864
+Santa Catarina,Brazil,-27.612,-48.485,01/17/21,1403
+Sergipe,Brazil,-10.917,-37.05,01/17/21,680
+Sao Paulo,Brazil,-23.55,-46.633,01/17/21,5720
+Tocantins,Brazil,-10.184,-48.334,01/17/21,199
+Brazil,Brazil,-14.2,-51.9,01/17/21,31416
+Acre,Brazil,-9.975,-67.81,01/18/21,8
+Alagoas,Brazil,-9.666,-35.735,01/18/21,281
+Amazonas,Brazil,-3.1,-60.017,01/18/21,1790
+Amapa,Brazil,0.034,-51.066,01/18/21,209
+Bahia,Brazil,-12.975,-38.477,01/18/21,2548
+Ceara,Brazil,-3.728,-38.528,01/18/21,0
+Distrito Federal,Brazil,-15.794,-47.883,01/18/21,1047
+Espirito Santo,Brazil,-20.289,-40.308,01/18/21,1853
+Goias,Brazil,-16.667,-49.25,01/18/21,1909
+Maranhao,Brazil,-2.528,-44.304,01/18/21,158
+Minas Gerais,Brazil,-19.917,-43.933,01/18/21,2482
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/18/21,1082
+Mato Grosso,Brazil,-15.596,-56.096,01/18/21,1128
+Para,Brazil,-1.456,-48.504,01/18/21,1247
+Paraiba,Brazil,-7.083,-34.833,01/18/21,0
+Pernambuco,Brazil,-8.05,-34.9,01/18/21,322
+Piaui,Brazil,-5.095,-42.8042,01/18/21,592
+Parana,Brazil,-25.417,-49.25,01/18/21,1113
+Rio de Janeiro,Brazil,-22.911,-43.206,01/18/21,373
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/18/21,395
+Rondonia,Brazil,-8.762,-63.904,01/18/21,1275
+Roraima,Brazil,2.819,-60.671,01/18/21,167
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/18/21,1173
+Santa Catarina,Brazil,-27.612,-48.485,01/18/21,1644
+Sergipe,Brazil,-10.917,-37.05,01/18/21,459
+Sao Paulo,Brazil,-23.55,-46.633,01/18/21,2933
+Tocantins,Brazil,-10.184,-48.334,01/18/21,607
+Brazil,Brazil,-14.2,-51.9,01/18/21,26795
+Acre,Brazil,-9.975,-67.81,01/19/21,433
+Alagoas,Brazil,-9.666,-35.735,01/19/21,373
+Amazonas,Brazil,-3.1,-60.017,01/19/21,1537
+Amapa,Brazil,0.034,-51.066,01/19/21,419
+Bahia,Brazil,-12.975,-38.477,01/19/21,4004
+Ceara,Brazil,-3.728,-38.528,01/19/21,3006
+Distrito Federal,Brazil,-15.794,-47.883,01/19/21,612
+Espirito Santo,Brazil,-20.289,-40.308,01/19/21,1682
+Goias,Brazil,-16.667,-49.25,01/19/21,2285
+Maranhao,Brazil,-2.528,-44.304,01/19/21,383
+Minas Gerais,Brazil,-19.917,-43.933,01/19/21,5865
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/19/21,1031
+Mato Grosso,Brazil,-15.596,-56.096,01/19/21,1991
+Para,Brazil,-1.456,-48.504,01/19/21,1569
+Paraiba,Brazil,-7.083,-34.833,01/19/21,238
+Pernambuco,Brazil,-8.05,-34.9,01/19/21,1635
+Piaui,Brazil,-5.095,-42.8042,01/19/21,786
+Parana,Brazil,-25.417,-49.25,01/19/21,4858
+Rio de Janeiro,Brazil,-22.911,-43.206,01/19/21,4375
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/19/21,1329
+Rondonia,Brazil,-8.762,-63.904,01/19/21,1041
+Roraima,Brazil,2.819,-60.671,01/19/21,219
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/19/21,4285
+Santa Catarina,Brazil,-27.612,-48.485,01/19/21,3133
+Sergipe,Brazil,-10.917,-37.05,01/19/21,651
+Sao Paulo,Brazil,-23.55,-46.633,01/19/21,15953
+Tocantins,Brazil,-10.184,-48.334,01/19/21,594
+Brazil,Brazil,-14.2,-51.9,01/19/21,64287
+Acre,Brazil,-9.975,-67.81,01/20/21,221
+Alagoas,Brazil,-9.666,-35.735,01/20/21,379
+Amazonas,Brazil,-3.1,-60.017,01/20/21,5009
+Amapa,Brazil,0.034,-51.066,01/20/21,265
+Bahia,Brazil,-12.975,-38.477,01/20/21,4991
+Ceara,Brazil,-3.728,-38.528,01/20/21,1419
+Distrito Federal,Brazil,-15.794,-47.883,01/20/21,620
+Espirito Santo,Brazil,-20.289,-40.308,01/20/21,1387
+Goias,Brazil,-16.667,-49.25,01/20/21,1880
+Maranhao,Brazil,-2.528,-44.304,01/20/21,336
+Minas Gerais,Brazil,-19.917,-43.933,01/20/21,7429
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/20/21,1064
+Mato Grosso,Brazil,-15.596,-56.096,01/20/21,1609
+Para,Brazil,-1.456,-48.504,01/20/21,1487
+Paraiba,Brazil,-7.083,-34.833,01/20/21,1272
+Pernambuco,Brazil,-8.05,-34.9,01/20/21,1770
+Piaui,Brazil,-5.095,-42.8042,01/20/21,774
+Parana,Brazil,-25.417,-49.25,01/20/21,3767
+Rio de Janeiro,Brazil,-22.911,-43.206,01/20/21,4015
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/20/21,899
+Rondonia,Brazil,-8.762,-63.904,01/20/21,1096
+Roraima,Brazil,2.819,-60.671,01/20/21,132
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/20/21,3945
+Santa Catarina,Brazil,-27.612,-48.485,01/20/21,3057
+Sergipe,Brazil,-10.917,-37.05,01/20/21,781
+Sao Paulo,Brazil,-23.55,-46.633,01/20/21,14411
+Tocantins,Brazil,-10.184,-48.334,01/20/21,462
+Brazil,Brazil,-14.2,-51.9,01/20/21,64477
+Acre,Brazil,-9.975,-67.81,01/21/21,300
+Alagoas,Brazil,-9.666,-35.735,01/21/21,378
+Amazonas,Brazil,-3.1,-60.017,01/21/21,2202
+Amapa,Brazil,0.034,-51.066,01/21/21,225
+Bahia,Brazil,-12.975,-38.477,01/21/21,4455
+Ceara,Brazil,-3.728,-38.528,01/21/21,1274
+Distrito Federal,Brazil,-15.794,-47.883,01/21/21,834
+Espirito Santo,Brazil,-20.289,-40.308,01/21/21,1618
+Goias,Brazil,-16.667,-49.25,01/21/21,1394
+Maranhao,Brazil,-2.528,-44.304,01/21/21,467
+Minas Gerais,Brazil,-19.917,-43.933,01/21/21,8831
+Mato Grosso do Sul,Brazil,-20.484,-54.615,01/21/21,0
+Mato Grosso,Brazil,-15.596,-56.096,01/21/21,1428
+Para,Brazil,-1.456,-48.504,01/21/21,2057
+Paraiba,Brazil,-7.083,-34.833,01/21/21,1111
+Pernambuco,Brazil,-8.05,-34.9,01/21/21,1985
+Piaui,Brazil,-5.095,-42.8042,01/21/21,626
+Parana,Brazil,-25.417,-49.25,01/21/21,3127
+Rio de Janeiro,Brazil,-22.911,-43.206,01/21/21,3306
+Rio Grande do Norte,Brazil,-5.783,-35.2,01/21/21,0
+Rondonia,Brazil,-8.762,-63.904,01/21/21,1310
+Roraima,Brazil,2.819,-60.671,01/21/21,157
+Rio Grande do Sul,Brazil,-30.033,-51.23,01/21/21,4025
+Santa Catarina,Brazil,-27.612,-48.485,01/21/21,2731
+Sergipe,Brazil,-10.917,-37.05,01/21/21,737
+Sao Paulo,Brazil,-23.55,-46.633,01/21/21,12118
+Tocantins,Brazil,-10.184,-48.334,01/21/21,0
+Brazil,Brazil,-14.2,-51.9,01/21/21,56696
