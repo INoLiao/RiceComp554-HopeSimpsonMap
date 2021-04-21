@@ -207,6 +207,19 @@ class InteractiveModel extends Component {
 				</div>
 
 				<div ref={this.myChart}/>
+				<small>
+				<b>Beta</b>:
+				Average contacts rate. Controls the rate of the spread of the virus and the average number of contacts per person. <br></br>
+
+				<b>Alpha</b>:
+				The incubation rate. The rate of latent individuals becoming infectious (average duration of incubation is 1/Alpha). <br></br>
+
+				<b>Rho</b>:
+				The recovery rate, which is affected by the duration of the disease. <br></br>
+
+				<b>Eta</b>:
+				The rate of recovered individuals that become susceptible to COVID-19 because of loss of immunity. <br></br><br></br>
+				</small>
 
 				<div id="parameters-outer-box">
 					<h4>Control the model parameters below:</h4>
@@ -282,7 +295,10 @@ class InteractiveModel extends Component {
 					<div id="parameters-control-image">
 						<img width="500px" src={ SEIR_IMAGE_PATH } alt="" className="img-SEIR-model"/>
 					</div>
+
+
 				</div>
+
 			</div>
 		);
 	}
